@@ -1,0 +1,10 @@
+	Bacilli	Gammaproteobacteria	Other
+Bacilli	0	1	1
+Gammaproteobacteria	0.8947368	0	0.6842105
+Other	1	1	0
+			
+			
+	Bacilli	Gammaproteobacteria	Other
+Bacilli	0	0	0
+Gammaproteobacteria	0.05263158	0	0.1681459
+Other	0	0	0
