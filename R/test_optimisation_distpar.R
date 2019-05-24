@@ -1,7 +1,12 @@
+library(igraph)
+library(tictoc)
+
+
 tax_assign <- function (x){
   c(rep("A",x),rep("B",100-x))
 }
 
+#===== Make the network
 reseau  <- erdos.renyi.game(100, 0.05, "gnp", directed = FALSE, loops = FALSE)
 
 V(reseau)$tax = tax_assign(20)
@@ -17,7 +22,7 @@ col1 = "A"
 col2 = "B"
 distance = "paths"
 
-
+#===== Test the djikstra algorithm for one community
 tic()
 x.col1 <- lapply(v1,function(x) shortest_paths(reseau,x,v1[which(x == v1):length(v1)],"all")$vpath)
 toc()
@@ -25,9 +30,12 @@ toc()
 m_weight = mean(E(reseau)$weight)
 max_weight = sum(E(reseau)$weight)
 
+
 dist_par(reseau,col1,col2,"",distance,share_w = 0)
 x.col1 = shortest_paths_graph(reseau,v1,v2,v.mix,col1,"paths","single",m_weight,max_weight)
 
+
+#==== Test the whole program
 tic()
 Netfrac(reseau,"transfer")
 toc()

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1534193844622.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "837C3CC4",
+    "lastKnownWriteTime" : 1535055867,
+    "last_content_update" : 1535055867328,
+    "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/reconnect.r",
+    "project_path" : "R/reconnect.r",
+    "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

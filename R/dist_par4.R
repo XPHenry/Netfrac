@@ -95,25 +95,26 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
     if (length(path) < 2){
       next
     }
+    v_path_col1 <- c()
+    v_path_col2 = c()
     v_path_mix = c()
-    # Associate the path vertices with their colors
-    # if (distance == "transfer"){
-    #   for (node in path){
-    #     v_path_col1 <- c()
-    #     if (node %in% v1){
-    #       v_path_col1 <- append(v_path_col1,node)
-    #       }
-    #     else{
-    #       dpr_share_paths = dpr_share_paths + 1.0
-    #       break
-    #       }
-    #     }
-    #   }
-    # else{
+    #===== Associate the path vertices with their colors
+    if (distance == "transfer"){
+      for (node in path){
+        if (node %in% v1){
+          v_path_col1 <- append(v_path_col1,node)
+          }
+        else{
+          dpr_share_paths = dpr_share_paths + 1.0
+          break
+          }
+        }
+      }
+    else{
       v_path_col1 = intersect(path, v1)
       v_path_col2 = intersect(path, v2)
       v_path_mix = intersect(path, v.mix)
-      # }
+      }
     #=========== Spp distance
 
     # Check if there is at least one vertex of a different color as the start and end vertex
@@ -126,69 +127,69 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
     } else if(length(v_path_col2) != 0){
       dpr_share_paths = dpr_share_paths + 1.0
     }
+    if (distance != "transfer"){
+      #=========== Spinp distance
+      #===== Remove start vertex and end vertex
+      path_i = path[-length(path)]
+      path_i = path_i[-1]
 
-    #=========== Spinp distance
-    #===== Remove start vertex and end vertex
-    path_i = path[-length(path)]
-    path_i = path_i[-1]
+      #===== Associate the path vertices with their colors
 
-    #===== Associate the path vertices with their colors
+      v_path_i_col1 = intersect(path_i, v1)
+      v_path_i_col2 = intersect(path_i, v2)
 
-    v_path_i_col1 = intersect(path_i, v1)
-    v_path_i_col2 = intersect(path_i, v2)
+      v_path_i_mix = intersect(path_i, v.mix)
 
-    v_path_i_mix = intersect(path_i, v.mix)
+      if(length(path_i) == 0){ # If there is no vertex in the path besides the start and end vertices
+        #dnpr_no_v = dnpr_no_v +1
+        dnpr_no_v = 1.0
+      }else if(length(v_path_i_col2) != 0){
+        #dnpr_mono_v = dnpr_mono_v + length(v_path_i_col1)
+        dnpr_prop = 1.0*length(v_path_i_col1)/(length(v_path_i_col1)+length(v_path_i_col2))
+      }else if(length(v_path_i_mix)!= 0){
+        # Number of not col1 vertices in shortest path
+        #dnpr_mix_v = dnpr_mix_v + length(v_path_i_col2) + length(v_path_i_mix)
+        dnpr_mix = dnpr_mix + (1.0*length(v_path_i_col2) + length(v_path_i_mix))
 
-    if(length(path_i) == 0){ # If there is no vertex in the path besides the start and end vertices
-      #dnpr_no_v = dnpr_no_v +1
-      dnpr_no_v = 1.0
-    }else if(length(v_path_i_col2) != 0){
-      #dnpr_mono_v = dnpr_mono_v + length(v_path_i_col1)
-      dnpr_prop = 1.0*length(v_path_i_col1)/(length(v_path_i_col1)+length(v_path_i_col2))
-    }else if(length(v_path_i_mix)!= 0){
-      # Number of not col1 vertices in shortest path
-      #dnpr_mix_v = dnpr_mix_v + length(v_path_i_col2) + length(v_path_i_mix)
-      dnpr_mix = dnpr_mix + (1.0*length(v_path_i_col2) + length(v_path_i_mix))
+      }
+      #calculate the proportion of the nodes same color over all nodes
+      dnpr_mix_v = dnpr_mix_v + (1.0*dnpr_prop/length(paths))+ dnpr_no_v
 
-    }
-    #calculate the proportion of the nodes same color over all nodes
-    dnpr_mix_v = dnpr_mix_v + (1.0*dnpr_prop/length(paths))+ dnpr_no_v
+      #=========== Spep and Spelp distance
 
-    #=========== Spep and Spelp distance
+      if(length(path) >1){
+        dl_mix_edges=0
+        dl_mono_edges=0
 
-    if(length(path) >1){
-      dl_mix_edges=0
-      dl_mono_edges=0
+        #dlpr
+        dlpr_mono_edges=0
+        dlpr_mix_edges=0
+        for(l in 1:length(path)){
+          if((l+1) <= length(path)){
+            # check the end vertices (path[l] and path[l+1]) of each edge of the path
+            if( (V(graph)[path[l]]$tax == col1) & (V(graph)[path[l+1]]$tax == col1) ){
+              #dl_mono_edges = dl_mono_edges+1
+              #dlpr_mono_edges = dlpr_mono_edges + E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight
 
-      #dlpr
-      dlpr_mono_edges=0
-      dlpr_mix_edges=0
-      for(l in 1:length(path)){
-        if((l+1) <= length(path)){
-          # check the end vertices (path[l] and path[l+1]) of each edge of the path
-          if( (V(graph)[path[l]]$tax == col1) & (V(graph)[path[l+1]]$tax == col1) ){
-            #dl_mono_edges = dl_mono_edges+1
-            #dlpr_mono_edges = dlpr_mono_edges + E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight
-
-            dl_mono_edges = dl_mono_edges+ 1
-            if (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight != max_w){
-              dlpr_mono_edges = dlpr_mono_edges + (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight)
+              dl_mono_edges = dl_mono_edges+ 1
+              if (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight != max_w){
+                dlpr_mono_edges = dlpr_mono_edges + (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight)
+              }else{
+                dlpr_mono_edges = dlpr_mono_edges + mean_w
+              }
             }else{
-              dlpr_mono_edges = dlpr_mono_edges + mean_w
-            }
-          }else{
-            #dl_mix_edges = dl_mix_edges+1
-            #dlpr_mix_edges = dlpr_mix_edges + E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight
+              #dl_mix_edges = dl_mix_edges+1
+              #dlpr_mix_edges = dlpr_mix_edges + E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight
 
-            dl_mix_edges = dl_mix_edges+ 1
-            if (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight != max_w){
-              dlpr_mix_edges = dlpr_mix_edges + (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight)
-            }else{
-              dlpr_mix_edges = dlpr_mix_edges + mean_w
+              dl_mix_edges = dl_mix_edges+ 1
+              if (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight != max_w){
+                dlpr_mix_edges = dlpr_mix_edges + (E(graph)[ V(graph)[path[l]] %--% V(graph)[path[l+1]] ]$weight)
+              }else{
+                dlpr_mix_edges = dlpr_mix_edges + mean_w
+              }
             }
           }
         }
-      }
       #calculate the proportion of monochrome edges
       # dl_prop = dl_prop + (1.0*dl_mono_edges/(dl_mono_edges+dl_mix_edges))/length(paths)
       # dlpr_prop = dlpr_prop + (1.0*dlpr_mono_edges/(dlpr_mono_edges+dlpr_mix_edges))/length(paths)
@@ -196,8 +197,11 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
       dlpr_prop = dlpr_prop + (1.0*dlpr_mono_edges/(dlpr_mono_edges+dlpr_mix_edges))
       }
     }
+  }
     #toc()
     if(distance == "Spp" || distance == "transfer"){
+      print(dpr_monocolor_paths)
+      print(dpr_share_paths)
       return(c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths))
     }
     res = c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths, dnpr_mix_v, dl_mix_edges, dl_prop, dlpr_prop, dlpr_mix_edges)
