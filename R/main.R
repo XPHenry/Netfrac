@@ -41,7 +41,7 @@ multicore<- function(nc=0) {
 #=
 #= Input: x, an igraph object (with $weight attribute and $tax attribute for colors, see SDDE::load_network()) or a phylo-class object(see ape::read_tree)
 #=		  type, "graph" or "tree"
-#=		  distance, "all" #TODO à rajouter les autres options pour sélectionner une seule distance
+#=		  distance, "all" #TODO rajouter les autres options pour s�lectionner une seule distance
 #=		  col1 and col2, colors to be analyzed (correspond to the factor levels of V(g)$tax)
 #=		  info (for tree only), dataframe (of characters) that indicates the color of each tips
 #=								 VertexName       Group
@@ -54,10 +54,10 @@ multicore<- function(nc=0) {
 #=
 #= All distances are made with vertices of same colors (graph) or external nodes (tree) of same colors
 #= and take into account the shortest path
-#= Need igraph, SDDE, ape, foreach and doParallel packages and the following functions files: dl.r, dpr.r, dn.r, set_node.r, dnpr.r, dlpr.r, dl_tree.r, dn_tree.r, dpr_tree.r, get_global_nb_motifs_by_colors2.r, create_subgraph_by_colors.r, multicore()
+#= Need igraph, SDDE, ape, foreach and doParallel packages
 #= Only works with graph and tree with two colors #TODO Works with two colors at a time Ex: for ABC colors, do A and B, B and C, A and C
 #=====================================================================================================
-#À rajouter notes sur les distances et aussi dans dist_par
+#===== rajouter notes sur les distances et aussi dans dist_par
 
 Netfrac <- function(x, distances = "Unifrac",paths="single", mats="", maxcores=1, share_weight =0){
   #create the different combinations using combn on the taxa levels

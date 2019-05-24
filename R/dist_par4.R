@@ -54,7 +54,9 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
   #
   # }
   x.col1_list <- c()
+  #====== Calculation of all the shortest paths in one community
   x.col1 <- lapply(v1,function(x) shortest_paths(graph,x,v1[which(x == v1):length(v1)],"all")$vpath)
+
   for(node in x.col1){
     node = node[-1]
     x.col1_list <- append(x.col1_list,node)
@@ -62,7 +64,7 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
   x.col1 <- x.col1_list
 
   #toc()
-  #Parameters initialization
+  #====== Parameters initialization
   #tic("intersect")
   #dpr
   dpr_mix_color_paths=0
@@ -87,17 +89,31 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
 
   #=========== Distance Calculation
   for(path in x.col1){
-    # if(length(paths)!=0){ #If there is at least one shortest path
-    #   for(k in 1:length(paths)){
-    #     path = paths[[k]]
+  # if(length(paths)!=0){ #If there is at least one shortest path
+  #   for(k in 1:length(paths)){
+  #     path = paths[[k]]
     if (length(path) < 2){
       next
     }
+    v_path_mix = c()
     # Associate the path vertices with their colors
-    v_path_col1 = intersect(path, v1)
-    v_path_col2 = intersect(path, v2)
-    v_path_mix = intersect(path, v.mix)
-
+    # if (distance == "transfer"){
+    #   for (node in path){
+    #     v_path_col1 <- c()
+    #     if (node %in% v1){
+    #       v_path_col1 <- append(v_path_col1,node)
+    #       }
+    #     else{
+    #       dpr_share_paths = dpr_share_paths + 1.0
+    #       break
+    #       }
+    #     }
+    #   }
+    # else{
+      v_path_col1 = intersect(path, v1)
+      v_path_col2 = intersect(path, v2)
+      v_path_mix = intersect(path, v.mix)
+      # }
     #=========== Spp distance
 
     # Check if there is at least one vertex of a different color as the start and end vertex
@@ -112,11 +128,12 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
     }
 
     #=========== Spinp distance
-    # Remove start vertex and end vertex
+    #===== Remove start vertex and end vertex
     path_i = path[-length(path)]
     path_i = path_i[-1]
 
-    # Associate the path vertices with their colors
+    #===== Associate the path vertices with their colors
+
     v_path_i_col1 = intersect(path_i, v1)
     v_path_i_col2 = intersect(path_i, v2)
 
@@ -177,15 +194,14 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
       # dlpr_prop = dlpr_prop + (1.0*dlpr_mono_edges/(dlpr_mono_edges+dlpr_mix_edges))/length(paths)
       dl_prop = dl_prop + (1.0*dl_mono_edges/(dl_mono_edges+dl_mix_edges))
       dlpr_prop = dlpr_prop + (1.0*dlpr_mono_edges/(dlpr_mono_edges+dlpr_mix_edges))
+      }
     }
-  }
-
-  #toc()
-  if(distance == "Spp" || distance == "transfer"){
-    return(c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths))
-  }
-  res = c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths, dnpr_mix_v, dl_mix_edges, dl_prop, dlpr_prop, dlpr_mix_edges)
-  return(res)
+    #toc()
+    if(distance == "Spp" || distance == "transfer"){
+      return(c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths))
+    }
+    res = c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths, dnpr_mix_v, dl_mix_edges, dl_prop, dlpr_prop, dlpr_mix_edges)
+    return(res)
 }
 
 dist_par<-function(igraph, nom_col1, nom_col2, mat, distance,opti="single",maxcores=1,share_w){

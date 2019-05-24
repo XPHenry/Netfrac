@@ -64,7 +64,7 @@ reconnect <- function(graph,matrice = ""){
     max_mat <- base::append(max_mat, as.character(all_pairs$Var1[n]))
     max_mat <- base::append(max_mat, as.character(all_pairs$Var2[n]))
   }
-  if (sum(E(graph)$weight)) == 0{
+  if (sum(E(graph)$weight) == 0){
     e_weight = 1
   }else{
     e_weight = sum(E(graph)$weight)
