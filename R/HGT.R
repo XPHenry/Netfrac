@@ -1,30 +1,35 @@
-# HGT1 = load_network("HGT1_edges.txt","HGT1_nodes.txt","proportional")
-# HGT1 = simplify(HGT1)
-# HGT1 = set_color(HGT1,foo)
-# Netfrac(HGT1,"transfer")
+# CAT = load_network("CAT_edges.txt","CAT_nodes.txt","proportional")
+# CAT = simplify(CAT)
+# CAT = set_color(CAT,foo)
+# Netfrac(CAT,"transfer")
 #
-# HGT2 = load_network("HGT2_edges.txt","HGT2_nodes.txt","proportional")
-# HGT2 = simplify(HGT2)
-# HGT2 = set_color(HGT2)
-# Netfrac(HGT2,"transfer")
+# TetA = load_network("TetA_edges.txt","TetA_nodes.txt","proportional")
+# TetA = simplify(TetA)
+# TetA = set_color(TetA)
+# Netfrac(TetA,"transfer")
 
-HGT1_fam = load_network("HGT1_edges.txt","HGT1_nodes.txt","proportional")
-HGT1_fam = simplify(HGT1_fam)
-HGT1_fam = set_color(HGT1_fam,foo_2)
-plot(HGT1_fam)
-Netfrac(HGT1_fam,"transfer")
+CAT_fam = load_network("HGT/CAT_edges_fam.csv","HGT/CAT_node_fam.csv","equal")
+#CAT_fam = simplify(CAT_fam)
+CAT_fam = set_color(CAT_fam,foo_2)
+CAT_fam <- CAT_fam + vertex("10956585_Corynebacterium_pXZ10145.1",tax = "Other",color = "grey")
+CAT_fam <- CAT_fam + vertex("15004764_Clostridium_pSOL1",tax = "Other",color = "grey")
+CAT_fam <- CAT_fam + vertex("58000315_Escherichia_pAPEC-O2-R",tax = "Gammaproteobacteria",color = "yellow")
+plot(CAT_fam, vertex.label = NA)
 
-HGT2_fam = load_network("HGT2_edges.txt","HGT2_nodes.txt","proportional")
-HGT2_fam = simplify(HGT2_fam)
-HGT2_fam = set_color(HGT2_fam,foo_3)
-plot(HGT2_fam)
-HGT2_transfer = Netfrac(HGT2_fam,"transfer")
+TetA_fam = load_network("HGT/TetA_edges_fam.csv","HGT/TetA_node_fam.csv","equal")
+V(TetA_fam)$name
+#TetA_fam = simplify(TetA_fam)
+TetA_fam = set_color(TetA_fam,foo_2)
+TetA_fam <- TetA_fam + vertex("56709212_Ruegeria_megaRue",tax = "Other",color = "grey")
+TetA_fam <- TetA_fam + vertex("190015737_Clostridium_pCW3",tax = "Other",color = "grey")
+TetA_fam <- TetA_fam + vertex("111024793_Rhodococcus_pRHL1",tax = "Actinobacteria",color = "turquoise")
+plot(TetA_fam, vertex.label = NA)
 
 #======================
 #= make a new network from the sequences of TetA
 #======================
 
-TetA_table <- read.table("./HGT/mothur/TetA_align_good.square.dist")
+TetA_table <- read.table("./HGT/mothur/TetA_align_good.square.csv")
 TetA_mat <- as.matrix(TetA_table[2:51])
 rownames(TetA_mat) = TetA_table[,1]
 colnames(TetA_mat) = TetA_table[,1]

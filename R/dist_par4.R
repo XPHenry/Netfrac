@@ -32,6 +32,23 @@ number_transfer_1 <- function(d=0, n){
   }
   return(k/n)
 }
+estimation_transfer <- function (x, comm){
+  x_A = subgroup_graph(x, comm)
+  x_comp = components(x_A)
+
+  num_T = 0
+  denom_T = 0
+
+  for (i in 1:x_comp$no){
+    size = x_comp$csize[i]
+    denom_T = denom_T + size
+    if (size > 1){
+      num = (size*(size-1))/2
+      num_T = num_T + num
+    }
+  }
+  dist_T = num_T/((denom_T*(denom_T-1))/2)
+}
 
 shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max_w){
   # x.col1<-foreach(a=v1[-(length(v1))], i=icount(), .combine="+", .inorder=FALSE, .packages='igraph') %:%
@@ -56,6 +73,7 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
   x.col1_list <- c()
   #====== Calculation of all the shortest paths in one community
   x.col1 <- lapply(v1,function(x) shortest_paths(graph,x,v1[which(x == v1):length(v1)],"all")$vpath)
+  #x.col1 <- lapply(v1,function(x) all_shortest_paths(graph,x,v1[which(x == v1):length(v1)],"all")$vpath)
 
   for(node in x.col1){
     node = node[-1]
@@ -231,16 +249,38 @@ dist_par<-function(igraph, nom_col1, nom_col2, mat, distance,opti="single",maxco
   graph = subgroup_graph(igraph,c(nom_col1,nom_col2))
   m_weight = mean(E(graph)$weight)
   max_weight = sum(E(graph)$weight)
-  if (components(graph)$no > 1){
-    if (mat == ""){
-      graph = reconnect_btw(graph)
+  if (distance!= "transfer2"){
+    if (components(graph)$no > 1){
+      if (mat == ""){
+        graph = reconnect_btw(graph)
+      }
+      else{
+        graph = reconnect(graph,matrice = mat)
+      }
     }
-    else{
-      graph = reconnect(graph,matrice = mat)
-    }
-
   }
+
   #print(V(graph))
+  else if (distance == "transfer2"){
+    if (components(graph)$no > 1){
+      comp <- components(graph)
+      clusters <- c()
+      for (i in 1:comp$no){
+        fact_comp <- factor(V(graph)$tax[which(components(graph)$membership == i)])
+        #=== counter for the clusters that will compose the distance calculation graph
+        if (comp$csize[i] > 5){
+          clusters <- append(clusters,i)
+        }else if (length(levels(fact_comp)) == 2){
+          if (count(fact_comp)[which(count(fact_comp)$x == nom_col1),2] > count(fact_comp)[which(count(fact_comp)$x == nom_col2),2]){
+            clusters <- append(clusters,i)
+          }
+        }
+      }
+      select_clust <- induced.subgraph(graph,comp$membership %in% clusters)
+    }
+    return(c(estimation_transfer(graph,nom_col1), estimation_transfer(graph, nom_col2), 2, 2))
+  }
+
 
   ## Get vertex by colors
   col1 <- nom_col1

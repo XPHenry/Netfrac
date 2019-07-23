@@ -1,6 +1,7 @@
 #===========Working version of the dist_mult(Netfrac?) and dist_paths
 
 #=========== Required libraries and functions
+library(plyr)
 library(doParallel)
 library(igraph)
 library(SDDE)
@@ -20,6 +21,7 @@ source("R/create_subgraph_by_colors.r")
 source("R/unconnected_motifs3.r")
 source("R/SSNUnifrac.R")
 source("R/reconnect.r")
+source("R/transfer_dist.R")
 
 #=========== Function multicore (taken from BRIDES.r)
 
@@ -82,6 +84,8 @@ Netfrac <- function(x, distances = "Unifrac",paths="single", mats="", maxcores=1
       mat2[taxlevel[1,i],taxlevel[2,i]] <- transf[[3]]
       mat2[taxlevel[2,i],taxlevel[1,i]] <- transf[[4]]
 
+    }else if (distances == "transfer2"){
+      transf = transfer2(x)
     }else if(distances == "paths"){
     #if distance chosen are the paths, then there are multiple values
       transf = dist_paths(x,taxlevel[1,i],taxlevel[2,i], matr=mats, distance = distances, paths, maxcores=maxcores,share_w=share_weight)
@@ -111,7 +115,6 @@ Netfrac <- function(x, distances = "Unifrac",paths="single", mats="", maxcores=1
       mat[taxlevel[2,i],taxlevel[1,i]] = mat[taxlevel[1,i],taxlevel[2,i]]
     }else if(distances == "Motifs"){
       mat[taxlevel[1,i],taxlevel[2,i]] <- dist_paths(x,taxlevel[1,i],taxlevel[2,i],distance = distances, paths, maxcores=maxcores,share_w=share_weight)
-    }
 
     # #take care of NAs
     # mat[is.na(mat)] <- 0
@@ -119,17 +122,18 @@ Netfrac <- function(x, distances = "Unifrac",paths="single", mats="", maxcores=1
   }
   if (distances == "paths"){
     mat = list(Spp = mat,Spep = mat2,Spelp = mat3,Spinp = mat4,transfer = mat5)
-  }else if (distances == "transfer"){
+  }else if (distances == "transfer" || distances == "transfer2"){
     mat = list(transfer = mat, transfer2 = mat2)
   }
   return(mat)
+  }
 }
 
 dist_paths<-function(x, col1, col2, matr="", distance="paths", paths="single", info=NULL, type="graph", maxcores, share_w){
   #cat("distance between ", col1, " and ", col2, "\n")
   #Register the doParallel parallel background
   if(type == "graph"){
-    if(distance == "paths" || distance =="transfer" || distance == "Spp"){
+    if(distance == "paths" || distance =="transfer" || distance == "Spp" || distance == "transfer2"){
 
       #Call the function that does the distances with foreach loops
       res_dist =dist_par(x, col1, col2, mat="", distance,paths,maxcores,share_w)

@@ -34,29 +34,26 @@ number_transfer_1 <- function(d, n){
 }
 
 shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max_w){
-  # x.col1<-foreach(a=v1[-(length(v1))], i=icount(), .combine="+", .inorder=FALSE, .packages='igraph') %:%
-  #   foreach(b=v1[(i+1):length(v1)], .combine="+", .inorder=FALSE, .packages='igraph') %dopar% { #for all color 1 vertices
-  #     owarn <- getOption("warn")
-  #     options(warn = -1) # Silence warnings for not reachable vertices
-  #     # Get all shortest paths from the v.col1[i] vertex to v.col1[j] vertex
-  #     # The $res attribute of paths contains all shortest paths (vertices sequence) calculated in a list.
-  #     if (opti == "all"){
-  #       paths = get.all.shortest.paths(graph, a, b, mode= "all")$res
-  #     } else if(opti == "single"){
-  #       paths = get.shortest.paths(graph, a, b, mode= "all")$vpath
-  #     }
-  #     options(warn = owarn)
-  tic("shortestPath")
+  x.col1<-foreach(a=v1[-(length(v1))], i=icount(), .combine="+", .inorder=FALSE, .packages='igraph') %:%
+    foreach(b=v1[(i+1):length(v1)], .combine="+", .inorder=FALSE, .packages='igraph') %dopar% { #for all color 1 vertices
+      owarn <- getOption("warn")
+      options(warn = -1) # Silence warnings for not reachable vertices
+      # Get all shortest paths from the v.col1[i] vertex to v.col1[j] vertex
+      # The $res attribute of paths contains all shortest paths (vertices sequence) calculated in a list.
+      if (opti == "all"){
+        paths = get.all.shortest.paths(graph, a, b, mode= "all")$res
+      } else if(opti == "single"){
+        paths = get.shortest.paths(graph, a, b, mode= "all")$vpath
+      }
+      options(warn = owarn)
   # x.col1 <- c()
   # for(i in 1:length(v1)){
   #   short_list <- shortest_paths(graph,v1[i],v1[i:length(v1)],"all")$vpath
   #   x.col1 <- append(x.col1,short_list)
   #
   # }
-  x.col1 <- base::lapply(v1,function(x) shortest_paths(graph,x,x:v1[length(v1)],"all")$vpath)
-  toc()
+  #x.col1 <- base::lapply(v1,function(x) shortest_paths(graph,x,x:v1[length(v1)],"all")$vpath)
   #Parameters initialization
-  tic("intersect")
   #dpr
   dpr_mix_color_paths=0
   dpr_share_paths = 0
@@ -129,11 +126,11 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
       }
     }
   }
-    toc()
     if(distance == "Spp" || distance == "transfer"){
       return(c(dpr_share_paths, dpr_monocolor_paths, dpr_mix_color_paths))
     }
-  }
+    }
+}
 
 dist_par<-function(igraph, nom_col1, nom_col2, mat, distance,opti="single",maxcores=1,share_w){
   cl <- makeCluster(multicore(maxcores))
@@ -247,5 +244,5 @@ dist_par<-function(igraph, nom_col1, nom_col2, mat, distance,opti="single",maxco
     return(c(Spp=dpr,Spep=dl,Spelp=dlpr,Spinp=dnpr, direct = transfer_dir, reverse = transfer_rev))
   } else if(distance == "transfer"){
     return(c(direct = transfer_dir, reverse = transfer_rev, abs_transfer1 = number_transfer_1(transfer_dir,length(v.col1)), abs_transfer2 = number_transfer_1(transfer_rev,length(v.col2))))
-    }
+  }
 }
