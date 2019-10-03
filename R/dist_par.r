@@ -15,7 +15,7 @@
 #= Works only for two colors graph
 #==========================================================================================================================================================
 
-dist_par<-function(graph, nom_col1, nom_col2, distance, opti){
+dist_par<-function(graph, nom_col1, nom_col2, mat = "", distance, opti = "all"){
 
 	## Get vertex by colors
   graph = subgroup_graph(graph,c(nom_col1,nom_col2))
@@ -267,7 +267,7 @@ dist_par<-function(graph, nom_col1, nom_col2, distance, opti){
 	dnpr = (x.col1[7]+x.col2[7])/(x.col1[5]+x.col2[5]+x.col1[6]+x.col2[6]+x.col1[7]+x.col2[7])
 	dl = (x.col1[9]+x.col2[9])/(x.col1[8]+x.col2[8]+x.col1[9]+x.col2[9])
 	dlpr = (x.col1[10]+x.col2[10])/(x.col1[10]+x.col2[10]+x.col1[11]+x.col2[11])
-
+  cat(dpr,dl,dlpr,dnpr,sep = " ")
 	if (distance == "paths"){
 	  return(c(Spp=dpr,Spep=dl,Spelp=dlpr,Spinp=(1-dnpr)))
 	} else if(distance == "transfer"){

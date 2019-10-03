@@ -79,9 +79,25 @@ random_transfer <- function(graph, num_t = 1){
 }
 
 
+
+# make a list of the names of the nodes of interest
+nodes_of_interest <- c("a35","b11")
+
+# select the nodes having these names
+selnodes <- V(net_t)[name %in% nodes_of_interest]
+# get their network neighborhood
+selegoV <- ego(net_t, order=1, nodes = "a22", mode = "all", mindist = 0)
+
+# turn the returned list of igraph.vs objects into a graph
+selegoG <- induced_subgraph(net_t,unlist(selegoV))
+
+# plot the subgraph
+plot(selegoG,vertex.label=V(selegoG)$name)
+
+
 all_transfer <- rep(0, 100)
 for( i in 1:100){
-  transferTest <- random_transfer(net_t,4)
+  transferTest <- random_transfer(net_t,5,5)
   truth <- V(transferTest)$transfer
   pred <- transfer2(transferTest)
   all_transfer[i] <- F1_Score(truth, pred, "yes")

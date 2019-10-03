@@ -2,6 +2,7 @@
 
 #=========== Required libraries and functions
 library(plyr)
+library(MLmetrics)
 library(doParallel)
 library(igraph)
 library(SDDE)
@@ -11,8 +12,8 @@ library(netresponse)
 library(Rcpp)
 sourceCpp("kcombination.cpp")
 
-source("R/dist_par4.R")
-#source("R/dist_par3.r")
+source("R/dist_par.R")
+#source("R/dist_par4.r")
 source("R/dist_tree_par.r")
 source("R/set_node.r")
 source("R/set_colors.r")
@@ -21,7 +22,7 @@ source("R/create_subgraph_by_colors.r")
 source("R/unconnected_motifs3.r")
 source("R/SSNUnifrac.R")
 source("R/reconnect.r")
-source("R/transfer_dist.R")
+source("R/transfer_dist2.R")
 
 #=========== Function multicore (taken from BRIDES.r)
 
