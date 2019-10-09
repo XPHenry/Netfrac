@@ -1,0 +1,1376 @@
+Escherichia coli	Klebsiella pneumoniae	0.016666667
+Escherichia coli	Salmonella enterica	0.026315789
+Acinetobacter baumannii	Klebsiella pneumoniae	0.026315789
+Klebsiella oxytoca	Klebsiella pneumoniae	0.027777778
+Klebsiella pneumoniae	Salmonella enterica	0.029411765
+Acinetobacter baumannii	Escherichia coli	0.029411765
+Enterobacter cloacae	Escherichia coli	0.03125
+Enterobacter cloacae	Klebsiella pneumoniae	0.03125
+Escherichia coli	Klebsiella oxytoca	0.033333333
+Escherichia coli	Pseudomonas aeruginosa	0.041666667
+Enterobacter cloacae	Klebsiella oxytoca	0.041666667
+Klebsiella pneumoniae	Pseudomonas aeruginosa	0.043478261
+Enterobacter cloacae	Salmonella enterica	0.043478261
+Acinetobacter baumannii	Klebsiella oxytoca	0.043478261
+Acinetobacter baumannii	Pseudomonas aeruginosa	0.043478261
+Acinetobacter baumannii	Salmonella enterica	0.043478261
+Klebsiella oxytoca	Salmonella enterica	0.045454545
+Enterococcus faecalis	Enterococcus faecium	0.045454545
+Acinetobacter baumannii	Enterobacter cloacae	0.045454545
+Escherichia coli	Shigella flexneri	0.047619048
+Enterococcus faecium	Staphylococcus aureus	0.047619048
+Enterococcus faecalis	Staphylococcus aureus	0.047619048
+Staphylococcus aureus	Staphylococcus epidermidis	0.05
+Klebsiella pneumoniae	Morganella morganii	0.055555556
+Klebsiella pneumoniae	Shigella flexneri	0.055555556
+Enterobacter sp. MGH 14	Klebsiella pneumoniae	0.055555556
+Enterobacter sp. MGH 10	Klebsiella pneumoniae	0.055555556
+Pseudomonas aeruginosa	Salmonella enterica	0.058823529
+Escherichia coli	Morganella morganii	0.058823529
+Enterobacter sp. MGH 3	Klebsiella pneumoniae	0.058823529
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 3	0.058823529
+Enterobacter sp. MGH 14	Escherichia coli	0.058823529
+Enterobacter cloacae	Pseudomonas aeruginosa	0.058823529
+Enterobacter cloacae	Shigella flexneri	0.058823529
+Enterobacter sp. MGH 15	Klebsiella pneumoniae	0.0625
+Enterobacter sp. MGH 10	Escherichia coli	0.0625
+Salmonella enterica	Shigella flexneri	0.066666667
+Klebsiella pneumoniae	Vibrio cholerae	0.066666667
+Enterobacter sp. MGH 3	Escherichia coli	0.066666667
+Enterobacter sp. MGH 15	Escherichia coli	0.066666667
+Klebsiella oxytoca	Morganella morganii	0.071428571
+Klebsiella oxytoca	Pseudomonas aeruginosa	0.071428571
+Klebsiella oxytoca	Shigella flexneri	0.071428571
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 15	0.071428571
+Enterobacter cloacae	Enterobacter sp. MGH 10	0.071428571
+Salmonella enterica	Vibrio cholerae	0.076923077
+Escherichia coli	Vibrio cholerae	0.076923077
+Enterobacter sp. MGH 3	Klebsiella oxytoca	0.076923077
+Enterobacter sp. MGH 15	Klebsiella oxytoca	0.076923077
+Enterobacter sp. MGH 14	Klebsiella oxytoca	0.076923077
+Enterobacter sp. MGH 10	Klebsiella oxytoca	0.076923077
+Enterobacter cloacae	Morganella morganii	0.076923077
+Enterobacter aerogenes	Escherichia coli	0.076923077
+Enterobacter aerogenes	Klebsiella pneumoniae	0.076923077
+Acinetobacter baumannii	Morganella morganii	0.076923077
+Acinetobacter baumannii	Shigella flexneri	0.076923077
+Acinetobacter baumannii	Vibrio cholerae	0.076923077
+Morganella morganii	Salmonella enterica	0.083333333
+Enterococcus faecalis	Staphylococcus epidermidis	0.083333333
+Enterobacter cloacae	Enterobacter sp. MGH 14	0.083333333
+Enterobacter cloacae	Enterobacter sp. MGH 15	0.083333333
+Enterobacter cloacae	Vibrio cholerae	0.083333333
+Enterobacter aerogenes	Enterobacter cloacae	0.083333333
+Acinetobacter baumannii	Enterobacter sp. MGH 14	0.083333333
+Acinetobacter baumannii	Enterobacter sp. MGH 15	0.083333333
+Staphylococcus aureus	Streptococcus suis	0.090909091
+Pseudomonas aeruginosa	Shigella flexneri	0.090909091
+Pseudomonas aeruginosa	Vibrio cholerae	0.090909091
+Escherichia coli	Escherichia fergusonii	0.090909091
+Enterococcus faecium	Streptococcus suis	0.090909091
+Enterococcus faecalis	Streptococcus suis	0.090909091
+Enterobacter sp. MGH 2	Escherichia coli	0.090909091
+Enterobacter sp. MGH 2	Klebsiella pneumoniae	0.090909091
+Enterobacter sp. MGH 15	Enterobacter sp. MGH 3	0.090909091
+Enterobacter sp. MGH 15	Salmonella enterica	0.090909091
+Enterobacter cloacae	Enterobacter sp. MGH 3	0.090909091
+Enterobacter aerogenes	Klebsiella oxytoca	0.090909091
+Enterobacter aerogenes	Salmonella enterica	0.090909091
+Acinetobacter baumannii	Acinetobacter nosocomialis	0.090909091
+Acinetobacter baumannii	Enterobacter aerogenes	0.090909091
+Acinetobacter baumannii	Enterobacter sp. MGH 10	0.090909091
+Acinetobacter baumannii	Enterobacter sp. MGH 3	0.090909091
+Staphylococcus epidermidis	Staphylococcus hominis	0.1
+Staphylococcus aureus	Staphylococcus hominis	0.1
+Klebsiella pneumoniae	Pseudomonas putida	0.1
+Klebsiella pneumoniae	Rickettsiaceae bacterium Os18	0.1
+Escherichia fergusonii	Salmonella enterica	0.1
+Escherichia coli	Escherichia sp. 1_1_43	0.1
+Escherichia coli	Pseudomonas putida	0.1
+Enterococcus faecium	Staphylococcus epidermidis	0.1
+Enterobacter sp. MGH 3	Pseudomonas aeruginosa	0.1
+Enterobacter sp. MGH 14	Salmonella enterica	0.1
+Enterobacter sp. MGH 10	Salmonella enterica	0.1
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 2	0.1
+Enterobacter cloacae	Pseudomonas putida	0.1
+Enterobacter aerogenes	Pseudomonas aeruginosa	0.1
+Acinetobacter baumannii	Pasteurella multocida	0.1
+Acinetobacter baumannii	Pseudomonas putida	0.1
+Pseudomonas putida	Salmonella enterica	0.111111111
+Pasteurella multocida	Pseudomonas aeruginosa	0.111111111
+Morganella morganii	Shigella flexneri	0.111111111
+Klebsiella pneumoniae	Klebsiella sp. 10982	0.111111111
+Klebsiella pneumoniae	Pasteurella multocida	0.111111111
+Klebsiella pneumoniae	Proteus mirabilis	0.111111111
+Klebsiella oxytoca	Klebsiella sp. 10982	0.111111111
+Klebsiella oxytoca	Vibrio cholerae	0.111111111
+Escherichia sp. 1_1_43	Klebsiella pneumoniae	0.111111111
+Escherichia sp. 1_1_43	Salmonella enterica	0.111111111
+Escherichia fergusonii	Klebsiella pneumoniae	0.111111111
+Escherichia fergusonii	Shigella flexneri	0.111111111
+Escherichia coli	Rickettsiaceae bacterium Os18	0.111111111
+Enterobacter sp. MGH 5	Enterobacter sp. MGH 8	0.111111111
+Enterobacter sp. MGH 3	Salmonella enterica	0.111111111
+Enterobacter sp. MGH 2	Salmonella enterica	0.111111111
+Enterobacter sp. MGH 14	Pseudomonas aeruginosa	0.111111111
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 5	0.111111111
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 8	0.111111111
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 12	0.111111111
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 5	0.111111111
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 8	0.111111111
+Enterobacter sp. MGH 10	Morganella morganii	0.111111111
+Enterobacter sp. MGH 10	Pseudomonas aeruginosa	0.111111111
+Enterobacter sp. BWH 27	Escherichia coli	0.111111111
+Enterobacter sp. BWH 27	Klebsiella pneumoniae	0.111111111
+Enterobacter cloacae	Escherichia sp. 1_1_43	0.111111111
+Enterobacter cloacae	Proteus mirabilis	0.111111111
+Enterobacter aerogenes	Escherichia sp. 1_1_43	0.111111111
+Enterobacter aerogenes	Shigella flexneri	0.111111111
+Edwardsiella tarda	Enterobacter cloacae	0.111111111
+Edwardsiella tarda	Klebsiella pneumoniae	0.111111111
+Acinetobacter baumannii	Escherichia fergusonii	0.111111111
+Acinetobacter baumannii	Klebsiella sp. 10982	0.111111111
+Streptococcus agalactiae	Streptococcus suis	0.125
+Staphylococcus aureus	Staphylococcus pseudintermedius	0.125
+Shigella flexneri	Vibrio cholerae	0.125
+Proteus mirabilis	Salmonella enterica	0.125
+Morganella morganii	Pseudomonas aeruginosa	0.125
+Klebsiella pneumoniae	Yersinia pestis	0.125
+Klebsiella oxytoca	Proteus mirabilis	0.125
+Klebsiella oxytoca	Pseudomonas putida	0.125
+Klebsiella oxytoca	Rickettsiaceae bacterium Os18	0.125
+Escherichia sp. 1_1_43	Klebsiella oxytoca	0.125
+Escherichia fergusonii	Pseudomonas aeruginosa	0.125
+Escherichia coli	Pasteurella multocida	0.125
+Escherichia coli	Proteus mirabilis	0.125
+Enterococcus faecium	Peptoclostridium difficile	0.125
+Enterobacter sp. MGH 3	Vibrio cholerae	0.125
+Enterobacter sp. MGH 2	Klebsiella oxytoca	0.125
+Enterobacter sp. MGH 2	Shigella flexneri	0.125
+Enterobacter sp. MGH 15	Pseudomonas aeruginosa	0.125
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 7	0.125
+Enterobacter sp. MGH 14	Vibrio cholerae	0.125
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 15	0.125
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 11	0.125
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 12	0.125
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 5	0.125
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 8	0.125
+Enterobacter cloacae	Enterobacter sp. MGH 2	0.125
+Enterobacter aerogenes	Morganella morganii	0.125
+Enterobacter aerogenes	Vibrio cholerae	0.125
+Edwardsiella tarda	Escherichia coli	0.125
+Edwardsiella tarda	Salmonella enterica	0.125
+Bibersteinia trehalosi	Pasteurella multocida	0.125
+Bacteroides dorei	Bacteroides fragilis	0.125
+Acinetobacter nosocomialis	Escherichia coli	0.125
+Acinetobacter nosocomialis	Klebsiella pneumoniae	0.125
+Acinetobacter baumannii	Bibersteinia trehalosi	0.125
+Acinetobacter baumannii	Proteus mirabilis	0.125
+Vibrio cholerae	Vibrio parahaemolyticus	0.142857143
+Streptococcus agalactiae	Streptococcus pneumoniae	0.142857143
+Staphylococcus aureus	Staphylococcus sciuri	0.142857143
+Pseudomonas aeruginosa	Pseudomonas putida	0.142857143
+Proteus mirabilis	Vibrio cholerae	0.142857143
+Peptoclostridium difficile	Streptococcus suis	0.142857143
+Klebsiella pneumoniae	Serratia marcescens	0.142857143
+Klebsiella pneumoniae	Vibrio parahaemolyticus	0.142857143
+Klebsiella oxytoca	Pasteurella multocida	0.142857143
+Escherichia sp. 1_1_43	Morganella morganii	0.142857143
+Escherichia sp. 1_1_43	Shigella flexneri	0.142857143
+Escherichia fergusonii	Klebsiella oxytoca	0.142857143
+Escherichia coli	Klebsiella sp. 10982	0.142857143
+Escherichia coli	Vibrio parahaemolyticus	0.142857143
+Escherichia coli	Yersinia pestis	0.142857143
+Enterococcus faecalis	Peptoclostridium difficile	0.142857143
+Enterococcus faecalis	Staphylococcus pseudintermedius	0.142857143
+Enterobacter sp. MGH 8	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 7	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 6	Escherichia coli	0.142857143
+Enterobacter sp. MGH 6	Klebsiella oxytoca	0.142857143
+Enterobacter sp. MGH 6	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 5	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 3	Enterobacter sp. MGH 7	0.142857143
+Enterobacter sp. MGH 3	Proteus mirabilis	0.142857143
+Enterobacter sp. MGH 15	Proteus mirabilis	0.142857143
+Enterobacter sp. MGH 15	Pseudomonas putida	0.142857143
+Enterobacter sp. MGH 15	Vibrio cholerae	0.142857143
+Enterobacter sp. MGH 14	Pseudomonas putida	0.142857143
+Enterobacter sp. MGH 14	Yersinia pestis	0.142857143
+Enterobacter sp. MGH 12	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 11	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 6	0.142857143
+Enterobacter sp. MGH 1	Escherichia coli	0.142857143
+Enterobacter sp. BWH 39	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. BWH 37	Klebsiella pneumoniae	0.142857143
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 11	0.142857143
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 12	0.142857143
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 5	0.142857143
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 8	0.142857143
+Enterobacter sp. BWH 27	Salmonella enterica	0.142857143
+Enterobacter cloacae	Escherichia fergusonii	0.142857143
+Enterobacter cloacae	Pasteurella multocida	0.142857143
+Enterobacter cloacae	Rickettsiaceae bacterium Os18	0.142857143
+Enterobacter cloacae	Yersinia pestis	0.142857143
+Enterobacter aerogenes	Enterobacter sp. MGH 14	0.142857143
+Enterobacter aerogenes	Enterobacter sp. MGH 15	0.142857143
+Enterobacter aerogenes	Enterobacter sp. MGH 3	0.142857143
+Enterobacter aerogenes	Escherichia fergusonii	0.142857143
+Enterobacter aerogenes	Pseudomonas putida	0.142857143
+Edwardsiella tarda	Klebsiella oxytoca	0.142857143
+Edwardsiella tarda	Vibrio cholerae	0.142857143
+Bibersteinia trehalosi	Escherichia coli	0.142857143
+Bibersteinia trehalosi	Klebsiella pneumoniae	0.142857143
+Aeromonas hydrophila	Escherichia coli	0.142857143
+Aeromonas hydrophila	Salmonella enterica	0.142857143
+Acinetobacter nosocomialis	Klebsiella oxytoca	0.142857143
+Acinetobacter nosocomialis	Morganella morganii	0.142857143
+Acinetobacter nosocomialis	Pseudomonas aeruginosa	0.142857143
+Acinetobacter baumannii	Escherichia sp. 1_1_43	0.142857143
+Acinetobacter baumannii	Vibrio parahaemolyticus	0.142857143
+Acinetobacter baumannii	Yersinia pestis	0.142857143
+Vibrio cholerae	Yersinia pestis	0.166666667
+Streptococcus pneumoniae	Streptococcus pyogenes	0.166666667
+Streptococcus agalactiae	Streptococcus pyogenes	0.166666667
+Staphylococcus haemolyticus	Staphylococcus hominis	0.166666667
+Staphylococcus epidermidis	Staphylococcus haemolyticus	0.166666667
+Staphylococcus epidermidis	Staphylococcus pseudintermedius	0.166666667
+Staphylococcus aureus	Staphylococcus haemolyticus	0.166666667
+Shigella sonnei	Vibrio cholerae	0.166666667
+Shigella flexneri	Shigella sonnei	0.166666667
+Salmonella enterica	Shigella sonnei	0.166666667
+Salmonella enterica	Yersinia pestis	0.166666667
+Pseudomonas putida	Shigella flexneri	0.166666667
+Pseudomonas putida	Vibrio cholerae	0.166666667
+Proteus mirabilis	Pseudomonas aeruginosa	0.166666667
+Proteus mirabilis	Shigella flexneri	0.166666667
+Peptoclostridium difficile	[Clostridium] clostridioforme	0.166666667
+Pasteurella multocida	Salmonella enterica	0.166666667
+Morganella morganii	Pasteurella multocida	0.166666667
+Klebsiella pneumoniae	Shigella sonnei	0.166666667
+Klebsiella oxytoca	Vibrio parahaemolyticus	0.166666667
+Escherichia sp. 1_1_43	Pseudomonas aeruginosa	0.166666667
+Escherichia sp. 1_1_43	Vibrio cholerae	0.166666667
+Escherichia fergusonii	Morganella morganii	0.166666667
+Escherichia fergusonii	Vibrio cholerae	0.166666667
+Escherichia coli	Serratia marcescens	0.166666667
+Escherichia coli	Shigella sonnei	0.166666667
+Enterococcus faecium	Staphylococcus pseudintermedius	0.166666667
+Enterobacter sp. MGH 8	Escherichia coli	0.166666667
+Enterobacter sp. MGH 7	Escherichia coli	0.166666667
+Enterobacter sp. MGH 5	Escherichia coli	0.166666667
+Enterobacter sp. MGH 3	Escherichia fergusonii	0.166666667
+Enterobacter sp. MGH 3	Rickettsiaceae bacterium Os18	0.166666667
+Enterobacter sp. MGH 3	Shigella flexneri	0.166666667
+Enterobacter sp. MGH 2	Enterobacter sp. MGH 5	0.166666667
+Enterobacter sp. MGH 2	Enterobacter sp. MGH 8	0.166666667
+Enterobacter sp. MGH 15	Enterobacter sp. MGH 6	0.166666667
+Enterobacter sp. MGH 15	Enterobacter sp. MGH 7	0.166666667
+Enterobacter sp. MGH 15	Rickettsiaceae bacterium Os18	0.166666667
+Enterobacter sp. MGH 15	Shigella flexneri	0.166666667
+Enterobacter sp. MGH 15	Yersinia pestis	0.166666667
+Enterobacter sp. MGH 14	Proteus mirabilis	0.166666667
+Enterobacter sp. MGH 14	Rickettsiaceae bacterium Os18	0.166666667
+Enterobacter sp. MGH 14	Shigella flexneri	0.166666667
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 2	0.166666667
+Enterobacter sp. MGH 12	Escherichia coli	0.166666667
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 2	0.166666667
+Enterobacter sp. MGH 11	Escherichia coli	0.166666667
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 14	0.166666667
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 3	0.166666667
+Enterobacter sp. MGH 10	Shigella flexneri	0.166666667
+Enterobacter sp. MGH 1	Klebsiella oxytoca	0.166666667
+Enterobacter sp. MGH 1	Klebsiella pneumoniae	0.166666667
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 2	0.166666667
+Enterobacter sp. BWH 27	Enterobacter sp. BWH 39	0.166666667
+Enterobacter sp. BWH 27	Klebsiella oxytoca	0.166666667
+Enterobacter sp. BWH 27	Shigella flexneri	0.166666667
+Enterobacter cloacae	Enterobacter sp. BWH 27	0.166666667
+Enterobacter cloacae	Enterobacter sp. MGH 6	0.166666667
+Enterobacter cloacae	Klebsiella sp. 10982	0.166666667
+Enterobacter cloacae	Shigella sonnei	0.166666667
+Enterobacter cloacae	Vibrio parahaemolyticus	0.166666667
+Enterobacter aerogenes	Proteus mirabilis	0.166666667
+Enterobacter aerogenes	Shigella sonnei	0.166666667
+Edwardsiella tarda	Proteus mirabilis	0.166666667
+Edwardsiella tarda	Pseudomonas aeruginosa	0.166666667
+Bibersteinia trehalosi	Enterobacter cloacae	0.166666667
+Bibersteinia trehalosi	Klebsiella oxytoca	0.166666667
+Bibersteinia trehalosi	Mannheimia haemolytica	0.166666667
+Bibersteinia trehalosi	Pseudomonas aeruginosa	0.166666667
+Bacillus subtilis	Staphylococcus aureus	0.166666667
+Aeromonas hydrophila	Enterobacter cloacae	0.166666667
+Aeromonas hydrophila	Klebsiella pneumoniae	0.166666667
+Acinetobacter nosocomialis	Bibersteinia trehalosi	0.166666667
+Acinetobacter nosocomialis	Enterobacter cloacae	0.166666667
+Acinetobacter nosocomialis	Pasteurella multocida	0.166666667
+Acinetobacter baumannii	Acinetobacter pittii	0.166666667
+Acinetobacter baumannii	Acinetobacter sp. MDS7A	0.166666667
+Acinetobacter baumannii	Aeromonas hydrophila	0.166666667
+Acinetobacter baumannii	Edwardsiella tarda	0.166666667
+Acinetobacter baumannii	Shigella sonnei	0.166666667
+Streptococcus suis	[Clostridium] clostridioforme	0.2
+Streptococcus pyogenes	Streptococcus suis	0.2
+Streptococcus pneumoniae	Streptococcus suis	0.2
+Streptococcus mitis	Streptococcus pneumoniae	0.2
+Streptococcus mitis	Streptococcus suis	0.2
+Streptococcus agalactiae	Streptococcus mitis	0.2
+Staphylococcus pseudintermedius	Streptococcus suis	0.2
+Staphylococcus epidermidis	Staphylococcus sp. DORA_6_22	0.2
+Staphylococcus epidermidis	Staphylococcus warneri	0.2
+Staphylococcus epidermidis	Streptococcus suis	0.2
+Staphylococcus aureus	Staphylococcus warneri	0.2
+Staphylococcus aureus	Streptococcus agalactiae	0.2
+Staphylococcus aureus	Streptococcus hyovaginalis	0.2
+Staphylococcus aureus	Streptococcus pneumoniae	0.2
+Salmonella enterica	Serratia marcescens	0.2
+Salmonella enterica	Vibrio harveyi	0.2
+Salmonella enterica	Vibrio parahaemolyticus	0.2
+Rickettsiaceae bacterium Os18	Salmonella enterica	0.2
+Pseudomonas putida	Shigella sonnei	0.2
+Pseudomonas putida	Yersinia pestis	0.2
+Pseudomonas aeruginosa	Vibrio parahaemolyticus	0.2
+Peptoclostridium difficile	Staphylococcus aureus	0.2
+Pasteurella multocida	Vibrio cholerae	0.2
+Mannheimia haemolytica	Pasteurella multocida	0.2
+Klebsiella sp. 10982	Pseudomonas aeruginosa	0.2
+Klebsiella sp. 10982	Salmonella enterica	0.2
+Klebsiella pneumoniae	Klebsiella sp. MS 92-3	0.2
+Klebsiella pneumoniae	Pseudomonas psychrophila	0.2
+Klebsiella oxytoca	Serratia marcescens	0.2
+Klebsiella oxytoca	Yersinia pestis	0.2
+Haemophilus parasuis	Klebsiella oxytoca	0.2
+Haemophilus parasuis	Klebsiella pneumoniae	0.2
+Haemophilus parasuis	Salmonella enterica	0.2
+Escherichia sp. 1_1_43	Pseudomonas putida	0.2
+Escherichia fergusonii	Escherichia sp. 1_1_43	0.2
+Escherichia fergusonii	Proteus mirabilis	0.2
+Escherichia fergusonii	Pseudomonas putida	0.2
+Escherichia coli	Haemophilus parasuis	0.2
+Escherichia coli	Staphylococcus aureus	0.2
+Escherichia coli	Vibrio harveyi	0.2
+Enterococcus faecium	Enterococcus sp. HSIEG1	0.2
+Enterococcus faecalis	Enterococcus sp. HSIEG1	0.2
+Enterococcus faecalis	Streptococcus agalactiae	0.2
+Enterococcus faecalis	Streptococcus hyovaginalis	0.2
+Enterococcus faecalis	[Clostridium] clostridioforme	0.2
+Enterobacter sp. MGH 8	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 8	Salmonella enterica	0.2
+Enterobacter sp. MGH 7	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 5	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 5	Salmonella enterica	0.2
+Enterobacter sp. MGH 3	Enterobacter sp. MGH 6	0.2
+Enterobacter sp. MGH 3	Morganella morganii	0.2
+Enterobacter sp. MGH 3	Pseudomonas putida	0.2
+Enterobacter sp. MGH 3	Yersinia pestis	0.2
+Enterobacter sp. MGH 2	Pseudomonas aeruginosa	0.2
+Enterobacter sp. MGH 15	Escherichia fergusonii	0.2
+Enterobacter sp. MGH 15	Escherichia sp. 1_1_43	0.2
+Enterobacter sp. MGH 15	Morganella morganii	0.2
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 6	0.2
+Enterobacter sp. MGH 14	Escherichia fergusonii	0.2
+Enterobacter sp. MGH 14	Escherichia sp. 1_1_43	0.2
+Enterobacter sp. MGH 14	Morganella morganii	0.2
+Enterobacter sp. MGH 13	Enterobacter sp. MGH 14	0.2
+Enterobacter sp. MGH 13	Enterobacter sp. MGH 15	0.2
+Enterobacter sp. MGH 13	Enterobacter sp. MGH 3	0.2
+Enterobacter sp. MGH 13	Enterobacter sp. MGH 7	0.2
+Enterobacter sp. MGH 13	Escherichia coli	0.2
+Enterobacter sp. MGH 13	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 13	Klebsiella pneumoniae	0.2
+Enterobacter sp. MGH 12	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 12	Salmonella enterica	0.2
+Enterobacter sp. MGH 11	Klebsiella oxytoca	0.2
+Enterobacter sp. MGH 11	Salmonella enterica	0.2
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 2	0.2
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 6	0.2
+Enterobacter sp. MGH 10	Rickettsiaceae bacterium Os18	0.2
+Enterobacter sp. MGH 10	Vibrio cholerae	0.2
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 15	0.2
+Enterobacter sp. BWH 39	Escherichia coli	0.2
+Enterobacter sp. BWH 39	Klebsiella oxytoca	0.2
+Enterobacter sp. BWH 39	Salmonella enterica	0.2
+Enterobacter sp. BWH 37	Enterobacter sp. MGH 14	0.2
+Enterobacter sp. BWH 37	Enterobacter sp. MGH 3	0.2
+Enterobacter sp. BWH 37	Escherichia coli	0.2
+Enterobacter sp. BWH 37	Escherichia fergusonii	0.2
+Enterobacter sp. BWH 37	Klebsiella oxytoca	0.2
+Enterobacter sp. BWH 37	Salmonella enterica	0.2
+Enterobacter sp. BWH 37	Shigella flexneri	0.2
+Enterobacter cloacae	Enterobacter sp. BIDMC 28	0.2
+Enterobacter cloacae	Enterobacter sp. BWH 37	0.2
+Enterobacter cloacae	Enterobacter sp. MGH 1	0.2
+Enterobacter cloacae	Enterobacter sp. MGH 7	0.2
+Enterobacter cloacae	Serratia marcescens	0.2
+Enterobacter aerogenes	Enterobacter sp. MGH 10	0.2
+Edwardsiella tarda	Enterobacter aerogenes	0.2
+Edwardsiella tarda	Enterobacter sp. MGH 15	0.2
+Edwardsiella tarda	Enterobacter sp. MGH 3	0.2
+Edwardsiella tarda	Escherichia fergusonii	0.2
+Edwardsiella tarda	Shigella flexneri	0.2
+Campylobacter jejuni	Enterococcus faecalis	0.2
+Campylobacter jejuni	Staphylococcus aureus	0.2
+Campylobacter jejuni	Streptococcus suis	0.2
+Brevibacterium massiliense	Pseudomonas aeruginosa	0.2
+Bibersteinia trehalosi	Morganella morganii	0.2
+Bibersteinia trehalosi	Salmonella enterica	0.2
+Bibersteinia trehalosi	Vibrio cholerae	0.2
+Bacteroides eggerthii	Bacteroides fragilis	0.2
+Bacteroides dorei	Escherichia coli	0.2
+Aeromonas hydrophila	Klebsiella oxytoca	0.2
+Acinetobacter nosocomialis	Enterobacter sp. MGH 14	0.2
+Acinetobacter nosocomialis	Enterobacter sp. MGH 3	0.2
+Acinetobacter nosocomialis	Salmonella enterica	0.2
+Acinetobacter nosocomialis	Vibrio cholerae	0.2
+Acinetobacter nosocomialis	Vibrio parahaemolyticus	0.2
+Acinetobacter bereziniae	Enterobacter aerogenes	0.2
+Acinetobacter bereziniae	Enterobacter cloacae	0.2
+Acinetobacter bereziniae	Enterobacter sp. MGH 14	0.2
+Acinetobacter bereziniae	Enterobacter sp. MGH 15	0.2
+Acinetobacter bereziniae	Escherichia coli	0.2
+Acinetobacter bereziniae	Klebsiella oxytoca	0.2
+Acinetobacter bereziniae	Klebsiella pneumoniae	0.2
+Acinetobacter bereziniae	Pseudomonas putida	0.2
+Acinetobacter bereziniae	Salmonella enterica	0.2
+Acinetobacter bereziniae	Shigella flexneri	0.2
+Acinetobacter bereziniae	Vibrio cholerae	0.2
+Acinetobacter baumannii	Acinetobacter bereziniae	0.2
+Acinetobacter baumannii	Enterobacter sp. BWH 37	0.2
+Acinetobacter baumannii	Enterobacter sp. MGH 2	0.2
+Acinetobacter baumannii	Haemophilus parasuis	0.2
+Acinetobacter baumannii	Mannheimia haemolytica	0.2
+Acinetobacter baumannii	Pseudomonas psychrophila	0.2
+Acinetobacter baumannii	Serratia marcescens	0.2
+Streptococcus pyogenes	Streptococcus sanguinis	0.25
+Streptococcus porci	Streptococcus suis	0.25
+Streptococcus pneumoniae	Streptococcus pseudopneumoniae	0.25
+Streptococcus pneumoniae	Streptococcus sanguinis	0.25
+Streptococcus mutans	Streptococcus suis	0.25
+Streptococcus mitis	Streptococcus pseudopneumoniae	0.25
+Streptococcus mitis	Streptococcus pyogenes	0.25
+Streptococcus mitis	Streptococcus sanguinis	0.25
+Streptococcus infantis	Streptococcus mitis	0.25
+Streptococcus infantis	Streptococcus pneumoniae	0.25
+Streptococcus hyovaginalis	Streptococcus suis	0.25
+Streptococcus hyovaginalis	[Clostridium] clostridioforme	0.25
+Streptococcus anginosus	Streptococcus pneumoniae	0.25
+Streptococcus anginosus	Streptococcus pyogenes	0.25
+Streptococcus agalactiae	Streptococcus anginosus	0.25
+Streptococcus agalactiae	Streptococcus hyovaginalis	0.25
+Streptococcus agalactiae	Streptococcus mutans	0.25
+Streptococcus agalactiae	Streptococcus sanguinis	0.25
+Streptococcus agalactiae	Streptococcus sp. SR4	0.25
+Streptococcus agalactiae	[Clostridium] clostridioforme	0.25
+Staphylococcus pseudintermedius	Streptococcus agalactiae	0.25
+Staphylococcus pseudintermedius	Streptococcus mitis	0.25
+Staphylococcus pseudintermedius	Streptococcus mutans	0.25
+Staphylococcus hominis	Staphylococcus sciuri	0.25
+Staphylococcus hominis	Staphylococcus sp. DORA_6_22	0.25
+Staphylococcus haemolyticus	Staphylococcus sp. DORA_6_22	0.25
+Staphylococcus epidermidis	Staphylococcus sciuri	0.25
+Staphylococcus capitis	Staphylococcus epidermidis	0.25
+Staphylococcus aureus	Staphylococcus capitis	0.25
+Staphylococcus aureus	Staphylococcus sp. DORA_6_22	0.25
+Staphylococcus aureus	Streptococcus mitis	0.25
+Staphylococcus aureus	Streptococcus mutans	0.25
+Staphylococcus aureus	Streptococcus parauberis	0.25
+Staphylococcus aureus	Streptococcus porci	0.25
+Staphylococcus aureus	Streptococcus pyogenes	0.25
+Staphylococcus aureus	Tyzzerella nexilis	0.25
+Staphylococcus aureus	[Clostridium] clostridioforme	0.25
+Shigella flexneri	Yersinia pestis	0.25
+Shigella dysenteriae	Shigella flexneri	0.25
+Salmonella enterica	Shigella dysenteriae	0.25
+Rickettsiaceae bacterium Os18	Vibrio cholerae	0.25
+Ralstonia sp. PBA	Salmonella enterica	0.25
+Pseudomonas sp. RL	Salmonella enterica	0.25
+Pseudomonas sp. RL	Shigella flexneri	0.25
+Pseudomonas sp. RL	Vibrio cholerae	0.25
+Pseudomonas sp. P179	Salmonella enterica	0.25
+Pseudomonas psychrophila	Salmonella enterica	0.25
+Pseudomonas monteilii	Salmonella enterica	0.25
+Pseudomonas monteilii	Vibrio cholerae	0.25
+Pseudomonas monteilii	Yersinia pestis	0.25
+Pseudomonas aeruginosa	Pseudomonas monteilii	0.25
+Pseudomonas aeruginosa	Pseudomonas psychrophila	0.25
+Pseudomonas aeruginosa	Pseudomonas sp. P179	0.25
+Pseudomonas aeruginosa	Rickettsiaceae bacterium Os18	0.25
+Pseudomonas aeruginosa	Serratia marcescens	0.25
+Pseudomonas aeruginosa	Shigella sonnei	0.25
+Pseudomonas aeruginosa	Yersinia pestis	0.25
+Proteus mirabilis	Pseudomonas monteilii	0.25
+Proteus mirabilis	Pseudomonas putida	0.25
+Proteus mirabilis	Pseudomonas sp. RL	0.25
+Proteus mirabilis	Shigella sonnei	0.25
+Proteus mirabilis	Yersinia pestis	0.25
+Peptoclostridium difficile	Staphylococcus pseudintermedius	0.25
+Peptoclostridium difficile	Streptococcus agalactiae	0.25
+Peptoclostridium difficile	Streptococcus mitis	0.25
+Pasteurella multocida	Pseudomonas putida	0.25
+Pasteurella multocida	Vibrio parahaemolyticus	0.25
+Novosphingobium sp. B-7	Pseudomonas aeruginosa	0.25
+Mycobacterium abscessus	Pseudomonas aeruginosa	0.25
+Mycobacterium abscessus	Pseudomonas putida	0.25
+Morganella morganii	Proteus mirabilis	0.25
+Morganella morganii	Pseudomonas putida	0.25
+Morganella morganii	Serratia marcescens	0.25
+Morganella morganii	Vibrio cholerae	0.25
+Morganella morganii	Vibrio parahaemolyticus	0.25
+Morganella morganii	Yersinia pestis	0.25
+Mannheimia haemolytica	Pseudomonas aeruginosa	0.25
+Mannheimia haemolytica	Salmonella enterica	0.25
+Mannheimia haemolytica	Vibrio cholerae	0.25
+Leptospira interrogans	Staphylococcus aureus	0.25
+Klebsiella sp. MS 92-3	Vibrio cholerae	0.25
+Klebsiella sp. 10982	Vibrio parahaemolyticus	0.25
+Klebsiella pneumoniae	Mannheimia haemolytica	0.25
+Klebsiella pneumoniae	Mycobacterium abscessus	0.25
+Klebsiella pneumoniae	Pseudomonas monteilii	0.25
+Klebsiella pneumoniae	Pseudomonas sp. RL	0.25
+Klebsiella pneumoniae	Shigella dysenteriae	0.25
+Klebsiella oxytoca	Mannheimia haemolytica	0.25
+Klebsiella oxytoca	Mycobacterium abscessus	0.25
+Klebsiella oxytoca	Pseudomonas monteilii	0.25
+Klebsiella oxytoca	Pseudomonas psychrophila	0.25
+Klebsiella oxytoca	Shigella sonnei	0.25
+Haemophilus sputorum	Klebsiella oxytoca	0.25
+Haemophilus sputorum	Klebsiella pneumoniae	0.25
+Haemophilus sputorum	Morganella morganii	0.25
+Haemophilus sputorum	Salmonella enterica	0.25
+Haemophilus sputorum	Shigella flexneri	0.25
+Haemophilus parasuis	Mannheimia haemolytica	0.25
+Haemophilus parasuis	Morganella morganii	0.25
+Haemophilus parasuis	Pasteurella multocida	0.25
+Haemophilus parasuis	Pseudomonas aeruginosa	0.25
+Haemophilus parasuis	Shigella flexneri	0.25
+Haemophilus parasuis	Vibrio cholerae	0.25
+Escherichia sp. 1_1_43	Shigella sonnei	0.25
+Escherichia sp. 1_1_43	Yersinia pestis	0.25
+Escherichia fergusonii	Haemophilus parasuis	0.25
+Escherichia fergusonii	Haemophilus sputorum	0.25
+Escherichia fergusonii	Shigella sonnei	0.25
+Escherichia coli	Haemophilus sputorum	0.25
+Escherichia coli	Klebsiella sp. MS 92-3	0.25
+Escherichia coli	Mannheimia haemolytica	0.25
+Escherichia coli	Mycobacterium abscessus	0.25
+Escherichia coli	Pseudomonas monteilii	0.25
+Escherichia coli	Pseudomonas psychrophila	0.25
+Escherichia coli	Pseudomonas sp. P179	0.25
+Escherichia coli	Pseudomonas sp. RL	0.25
+Escherichia coli	Ralstonia sp. PBA	0.25
+Escherichia coli	Shigella dysenteriae	0.25
+Enterococcus sp. HSIEG1	Staphylococcus aureus	0.25
+Enterococcus sp. HSIEG1	Streptococcus hyovaginalis	0.25
+Enterococcus sp. HSIEG1	Streptococcus suis	0.25
+Enterococcus raffinosus	Staphylococcus aureus	0.25
+Enterococcus faecium	Enterococcus raffinosus	0.25
+Enterococcus faecium	Staphylococcus sciuri	0.25
+Enterococcus faecium	Streptococcus agalactiae	0.25
+Enterococcus faecium	Streptococcus hyovaginalis	0.25
+Enterococcus faecium	Streptococcus mitis	0.25
+Enterococcus faecium	Streptococcus mutans	0.25
+Enterococcus faecium	Streptococcus parauberis	0.25
+Enterococcus faecium	Streptococcus pneumoniae	0.25
+Enterococcus faecium	[Clostridium] clostridioforme	0.25
+Enterococcus faecalis	Escherichia coli	0.25
+Enterococcus faecalis	Streptococcus mitis	0.25
+Enterococcus faecalis	Streptococcus mutans	0.25
+Enterococcus faecalis	Streptococcus parauberis	0.25
+Enterococcus faecalis	Streptococcus pneumoniae	0.25
+Enterococcus faecalis	Streptococcus porci	0.25
+Enterobacter sp. MGH 8	Enterobacter sp. MGH 9	0.25
+Enterobacter sp. MGH 7	Rickettsiaceae bacterium Os18	0.25
+Enterobacter sp. MGH 6	Enterobacter sp. MGH 7	0.25
+Enterobacter sp. MGH 6	Salmonella enterica	0.25
+Enterobacter sp. MGH 5	Enterobacter sp. MGH 9	0.25
+Enterobacter sp. MGH 3	Escherichia sp. 1_1_43	0.25
+Enterobacter sp. MGH 3	Haemophilus parasuis	0.25
+Enterobacter sp. MGH 3	Mannheimia haemolytica	0.25
+Enterobacter sp. MGH 3	Mycobacterium abscessus	0.25
+Enterobacter sp. MGH 3	Pasteurella multocida	0.25
+Enterobacter sp. MGH 3	Pseudomonas monteilii	0.25
+Enterobacter sp. MGH 2	Enterobacter sp. MGH 3	0.25
+Enterobacter sp. MGH 2	Vibrio cholerae	0.25
+Enterobacter sp. MGH 15	Mycobacterium abscessus	0.25
+Enterobacter sp. MGH 15	Pseudomonas monteilii	0.25
+Enterobacter sp. MGH 15	Shigella sonnei	0.25
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 2	0.25
+Enterobacter sp. MGH 14	Mannheimia haemolytica	0.25
+Enterobacter sp. MGH 14	Mycobacterium abscessus	0.25
+Enterobacter sp. MGH 14	Pasteurella multocida	0.25
+Enterobacter sp. MGH 14	Pseudomonas monteilii	0.25
+Enterobacter sp. MGH 14	Shigella sonnei	0.25
+Enterobacter sp. MGH 14	Vibrio parahaemolyticus	0.25
+Enterobacter sp. MGH 13	Enterobacter sp. MGH 6	0.25
+Enterobacter sp. MGH 13	Rickettsiaceae bacterium Os18	0.25
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 9	0.25
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 9	0.25
+Enterobacter sp. MGH 10	Klebsiella sp. 10982	0.25
+Enterobacter sp. MGH 10	Serratia marcescens	0.25
+Enterobacter sp. MGH 10	Vibrio parahaemolyticus	0.25
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 10	0.25
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 13	0.25
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 14	0.25
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 3	0.25
+Enterobacter sp. MGH 1	Enterobacter sp. MGH 7	0.25
+Enterobacter sp. BWH 37	Enterobacter sp. MGH 15	0.25
+Enterobacter sp. BWH 37	Morganella morganii	0.25
+Enterobacter sp. BWH 37	Proteus mirabilis	0.25
+Enterobacter sp. BWH 37	Pseudomonas aeruginosa	0.25
+Enterobacter sp. BWH 37	Pseudomonas putida	0.25
+Enterobacter sp. BWH 37	Vibrio cholerae	0.25
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 10	0.25
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 9	0.25
+Enterobacter sp. BWH 27	Morganella morganii	0.25
+Enterobacter sp. BIDMC 28	Enterobacter sp. MGH 15	0.25
+Enterobacter sp. BIDMC 28	Escherichia coli	0.25
+Enterobacter sp. BIDMC 28	Klebsiella oxytoca	0.25
+Enterobacter sp. BIDMC 28	Klebsiella pneumoniae	0.25
+Enterobacter sp. BIDMC 28	Salmonella enterica	0.25
+Enterobacter sp. BIDMC 28	Shigella flexneri	0.25
+Enterobacter cloacae	Enterobacter sp. MGH 13	0.25
+Enterobacter cloacae	Klebsiella sp. MS 92-3	0.25
+Enterobacter cloacae	Mycobacterium abscessus	0.25
+Enterobacter cloacae	Pseudomonas monteilii	0.25
+Enterobacter cloacae	Pseudomonas psychrophila	0.25
+Enterobacter cloacae	Pseudomonas sp. RL	0.25
+Enterobacter aerogenes	Enterobacter sp. BWH 37	0.25
+Enterobacter aerogenes	Mycobacterium abscessus	0.25
+Enterobacter aerogenes	Pseudomonas sp. RL	0.25
+Enterobacter aerogenes	Yersinia pestis	0.25
+Edwardsiella tarda	Enterobacter sp. MGH 14	0.25
+Edwardsiella tarda	Escherichia sp. 1_1_43	0.25
+Edwardsiella tarda	Morganella morganii	0.25
+Edwardsiella tarda	Pseudomonas monteilii	0.25
+Edwardsiella tarda	Pseudomonas putida	0.25
+Edwardsiella tarda	Yersinia pestis	0.25
+Citrobacter sp. A1	Citrobacter sp. L17	0.25
+Citrobacter freundii	Escherichia coli	0.25
+Campylobacter jejuni	Enterococcus faecium	0.25
+Campylobacter jejuni	Staphylococcus pseudintermedius	0.25
+Campylobacter jejuni	Streptococcus agalactiae	0.25
+Campylobacter jejuni	Streptococcus hyovaginalis	0.25
+Campylobacter jejuni	[Clostridium] clostridioforme	0.25
+Brevibacterium massiliense	Enterobacter cloacae	0.25
+Brevibacterium massiliense	Escherichia coli	0.25
+Brevibacterium massiliense	Klebsiella oxytoca	0.25
+Brevibacterium massiliense	Klebsiella pneumoniae	0.25
+Brevibacterium massiliense	Pseudomonas putida	0.25
+Brevibacterium massiliense	Salmonella enterica	0.25
+Bordetella bronchiseptica	Escherichia coli	0.25
+Bordetella bronchiseptica	Klebsiella pneumoniae	0.25
+Bordetella bronchiseptica	Pseudomonas aeruginosa	0.25
+Bibersteinia trehalosi	Enterobacter sp. MGH 14	0.25
+Bibersteinia trehalosi	Vibrio parahaemolyticus	0.25
+Bacteroides fragilis	Bacteroides sp. D22	0.25
+Bacteroides fragilis	Escherichia coli	0.25
+Bacteroides fragilis	Parabacteroides sp. 20_3	0.25
+Bacteroides dorei	Bacteroides eggerthii	0.25
+Bacteroides dorei	Salmonella enterica	0.25
+Bacteroides dorei	Staphylococcus aureus	0.25
+Bacillus subtilis	Enterococcus faecalis	0.25
+Bacillus subtilis	Enterococcus faecium	0.25
+Aeromonas hydrophila	Pseudomonas aeruginosa	0.25
+Aeromonas hydrophila	Ralstonia sp. PBA	0.25
+Acinetobacter sp. MDS7A	Enterobacter cloacae	0.25
+Acinetobacter sp. MDS7A	Escherichia coli	0.25
+Acinetobacter sp. MDS7A	Klebsiella oxytoca	0.25
+Acinetobacter sp. MDS7A	Klebsiella pneumoniae	0.25
+Acinetobacter sp. MDS7A	Vibrio parahaemolyticus	0.25
+Acinetobacter nosocomialis	Acinetobacter sp. MDS7A	0.25
+Acinetobacter nosocomialis	Edwardsiella tarda	0.25
+Acinetobacter nosocomialis	Enterobacter aerogenes	0.25
+Acinetobacter nosocomialis	Enterobacter sp. MGH 15	0.25
+Acinetobacter nosocomialis	Escherichia fergusonii	0.25
+Acinetobacter nosocomialis	Escherichia sp. 1_1_43	0.25
+Acinetobacter nosocomialis	Haemophilus parasuis	0.25
+Acinetobacter nosocomialis	Mannheimia haemolytica	0.25
+Acinetobacter nosocomialis	Proteus mirabilis	0.25
+Acinetobacter nosocomialis	Pseudomonas putida	0.25
+Acinetobacter nosocomialis	Shigella flexneri	0.25
+Acinetobacter nosocomialis	Yersinia pestis	0.25
+Acinetobacter bereziniae	Acinetobacter nosocomialis	0.25
+Acinetobacter bereziniae	Enterobacter sp. BWH 37	0.25
+Acinetobacter bereziniae	Enterobacter sp. MGH 3	0.25
+Acinetobacter bereziniae	Escherichia fergusonii	0.25
+Acinetobacter bereziniae	Escherichia sp. 1_1_43	0.25
+Acinetobacter bereziniae	Morganella morganii	0.25
+Acinetobacter bereziniae	Proteus mirabilis	0.25
+Acinetobacter bereziniae	Pseudomonas aeruginosa	0.25
+Acinetobacter bereziniae	Shigella sonnei	0.25
+Acinetobacter bereziniae	Yersinia pestis	0.25
+Acinetobacter baumannii	Aeromonas dhakensis	0.25
+Acinetobacter baumannii	Bordetella bronchiseptica	0.25
+Acinetobacter baumannii	Brevibacterium massiliense	0.25
+Acinetobacter baumannii	Enterobacter sp. BWH 27	0.25
+Acinetobacter baumannii	Haemophilus sputorum	0.25
+Acinetobacter baumannii	Klebsiella sp. MS 92-3	0.25
+Acinetobacter baumannii	Mycobacterium abscessus	0.25
+Acinetobacter baumannii	Pseudomonas monteilii	0.25
+Acinetobacter baumannii	Pseudomonas sp. RL	0.25
+Acinetobacter baumannii	Rickettsiaceae bacterium Os18	0.25
+Acinetobacter baumannii	Shigella dysenteriae	0.25
+Vibrio tubiashii	Yersinia pestis	0.333333333
+Vibrio parahaemolyticus	Yersinia pestis	0.333333333
+Vibrio cholerae	Vibrio tubiashii	0.333333333
+Streptococcus sp. SR1	Streptococcus sp. SR4	0.333333333
+Streptococcus sp. M334	Streptococcus sp. SR1	0.333333333
+Streptococcus sanguinis	Streptococcus sp. SR4	0.333333333
+Streptococcus sanguinis	Streptococcus suis	0.333333333
+Streptococcus pyogenes	Streptococcus sp. CM7	0.333333333
+Streptococcus pyogenes	Streptococcus sp. SR4	0.333333333
+Streptococcus pseudopneumoniae	Streptococcus pyogenes	0.333333333
+Streptococcus pseudopneumoniae	Streptococcus sanguinis	0.333333333
+Streptococcus pseudopneumoniae	Streptococcus sp. SR1	0.333333333
+Streptococcus pseudopneumoniae	Streptococcus suis	0.333333333
+Streptococcus porci	[Clostridium] clostridioforme	0.333333333
+Streptococcus pneumoniae	Streptococcus porci	0.333333333
+Streptococcus pneumoniae	Streptococcus sp. CM7	0.333333333
+Streptococcus pneumoniae	Streptococcus sp. M334	0.333333333
+Streptococcus pneumoniae	Streptococcus sp. SR1	0.333333333
+Streptococcus pneumoniae	Streptococcus sp. SR4	0.333333333
+Streptococcus pneumoniae	[Clostridium] clostridioforme	0.333333333
+Streptococcus parauberis	Streptococcus suis	0.333333333
+Streptococcus mutans	Streptococcus pneumoniae	0.333333333
+Streptococcus mutans	[Clostridium] clostridioforme	0.333333333
+Streptococcus mitis	Streptococcus mutans	0.333333333
+Streptococcus mitis	Streptococcus sp. M334	0.333333333
+Streptococcus mitis	Streptococcus sp. SR1	0.333333333
+Streptococcus mitis	Streptococcus sp. SR4	0.333333333
+Streptococcus lutetiensis	Streptococcus suis	0.333333333
+Streptococcus infantis	Streptococcus pseudopneumoniae	0.333333333
+Streptococcus infantis	Streptococcus pyogenes	0.333333333
+Streptococcus infantis	Streptococcus sanguinis	0.333333333
+Streptococcus hyovaginalis	Streptococcus mutans	0.333333333
+Streptococcus hyovaginalis	Streptococcus pneumoniae	0.333333333
+Streptococcus hyovaginalis	Streptococcus porci	0.333333333
+Streptococcus equinus	Streptococcus suis	0.333333333
+Streptococcus anginosus	Streptococcus mitis	0.333333333
+Streptococcus anginosus	Streptococcus sanguinis	0.333333333
+Streptococcus anginosus	Streptococcus sp. SR4	0.333333333
+Streptococcus anginosus	Streptococcus suis	0.333333333
+Streptococcus agalactiae	Streptococcus infantis	0.333333333
+Streptococcus agalactiae	Streptococcus porci	0.333333333
+Streptococcus agalactiae	Streptococcus pseudopneumoniae	0.333333333
+Streptococcus agalactiae	Streptococcus sp. CM7	0.333333333
+Streptococcus agalactiae	Streptococcus sp. SR1	0.333333333
+Staphylococcus pseudintermedius	Staphylococcus sciuri	0.333333333
+Staphylococcus pseudintermedius	Staphylococcus warneri	0.333333333
+Staphylococcus pseudintermedius	Streptococcus hyovaginalis	0.333333333
+Staphylococcus pseudintermedius	Streptococcus pneumoniae	0.333333333
+Staphylococcus pseudintermedius	[Clostridium] clostridioforme	0.333333333
+Staphylococcus hominis	Staphylococcus lugdunensis	0.333333333
+Staphylococcus haemolyticus	Staphylococcus lugdunensis	0.333333333
+Staphylococcus haemolyticus	Staphylococcus pseudintermedius	0.333333333
+Staphylococcus epidermidis	Staphylococcus lugdunensis	0.333333333
+Staphylococcus epidermidis	Staphylococcus sp. MDS7B	0.333333333
+Staphylococcus epidermidis	Streptococcus hyovaginalis	0.333333333
+Staphylococcus capitis	Staphylococcus haemolyticus	0.333333333
+Staphylococcus capitis	Staphylococcus hominis	0.333333333
+Staphylococcus capitis	Staphylococcus pseudintermedius	0.333333333
+Staphylococcus capitis	Staphylococcus sciuri	0.333333333
+Staphylococcus aureus	Staphylococcus lugdunensis	0.333333333
+Sphingobium chinhatense	Vibrio cholerae	0.333333333
+Sphingobium chinhatense	Yersinia pestis	0.333333333
+Shigella sonnei	Vibrio tubiashii	0.333333333
+Shigella sonnei	Yersinia pestis	0.333333333
+Shigella flexneri	Sphingobium chinhatense	0.333333333
+Shigella flexneri	Vibrio harveyi	0.333333333
+Shigella flexneri	Vibrio parahaemolyticus	0.333333333
+Shigella flexneri	Vibrio tubiashii	0.333333333
+Shigella dysenteriae	Shigella sonnei	0.333333333
+Shigella dysenteriae	Vibrio cholerae	0.333333333
+Serratia marcescens	Shigella flexneri	0.333333333
+Salmonella enterica	Shigella boydii	0.333333333
+Salmonella enterica	Sphingobium chinhatense	0.333333333
+Salmonella enterica	Vibrio tubiashii	0.333333333
+Rickettsiaceae bacterium Os18	Shigella flexneri	0.333333333
+Pseudomonas stutzeri	Shigella flexneri	0.333333333
+Pseudomonas sp. RL	Shigella sonnei	0.333333333
+Pseudomonas sp. RL	Sphingobium chinhatense	0.333333333
+Pseudomonas sp. RL	Yersinia pestis	0.333333333
+Pseudomonas sp. P179	Pseudomonas sp. RL	0.333333333
+Pseudomonas sp. P179	Shigella flexneri	0.333333333
+Pseudomonas sp. P179	Sphingobium chinhatense	0.333333333
+Pseudomonas sp. P179	Vibrio cholerae	0.333333333
+Pseudomonas sp. P179	Yersinia pestis	0.333333333
+Pseudomonas putida	Pseudomonas sp. P179	0.333333333
+Pseudomonas putida	Pseudomonas sp. RL	0.333333333
+Pseudomonas putida	Pseudomonas stutzeri	0.333333333
+Pseudomonas putida	Sphingobium chinhatense	0.333333333
+Pseudomonas putida	Vibrio tubiashii	0.333333333
+Pseudomonas psychrophila	Pseudomonas putida	0.333333333
+Pseudomonas psychrophila	Shigella flexneri	0.333333333
+Pseudomonas psychrophila	Vibrio cholerae	0.333333333
+Pseudomonas monteilii	Pseudomonas putida	0.333333333
+Pseudomonas monteilii	Pseudomonas sp. P179	0.333333333
+Pseudomonas monteilii	Pseudomonas sp. RL	0.333333333
+Pseudomonas monteilii	Shigella flexneri	0.333333333
+Pseudomonas monteilii	Sphingobium chinhatense	0.333333333
+Pseudomonas aeruginosa	Pseudomonas sp. RL	0.333333333
+Pseudomonas aeruginosa	Pseudomonas stutzeri	0.333333333
+Pseudomonas aeruginosa	Sphingobium chinhatense	0.333333333
+Proteus mirabilis	Pseudomonas sp. P179	0.333333333
+Proteus mirabilis	Shigella dysenteriae	0.333333333
+Proteus mirabilis	Sphingobium chinhatense	0.333333333
+Proteus mirabilis	Vibrio parahaemolyticus	0.333333333
+Peptoclostridium difficile	Shigella flexneri	0.333333333
+Peptoclostridium difficile	Streptococcus mutans	0.333333333
+Peptoclostridium difficile	Streptococcus pneumoniae	0.333333333
+Pasteurella multocida	Proteus mirabilis	0.333333333
+Pasteurella multocida	Pseudomonas psychrophila	0.333333333
+Pasteurella multocida	Shigella flexneri	0.333333333
+Pasteurella multocida	Shigella sonnei	0.333333333
+Pasteurella multocida	Vibrio tubiashii	0.333333333
+Pasteurella multocida	Yersinia pestis	0.333333333
+Mycobacterium abscessus	Proteus mirabilis	0.333333333
+Mycobacterium abscessus	Pseudomonas monteilii	0.333333333
+Mycobacterium abscessus	Pseudomonas sp. P179	0.333333333
+Mycobacterium abscessus	Pseudomonas sp. RL	0.333333333
+Mycobacterium abscessus	Salmonella enterica	0.333333333
+Mycobacterium abscessus	Shigella flexneri	0.333333333
+Mycobacterium abscessus	Sphingobium chinhatense	0.333333333
+Mycobacterium abscessus	Vibrio cholerae	0.333333333
+Mycobacterium abscessus	Yersinia pestis	0.333333333
+Morganella morganii	Mycobacterium abscessus	0.333333333
+Morganella morganii	Pseudomonas monteilii	0.333333333
+Morganella morganii	Pseudomonas sp. P179	0.333333333
+Morganella morganii	Pseudomonas sp. RL	0.333333333
+Morganella morganii	Pseudomonas stutzeri	0.333333333
+Morganella morganii	Shigella dysenteriae	0.333333333
+Morganella morganii	Shigella sonnei	0.333333333
+Morganella morganii	Sphingobium chinhatense	0.333333333
+Morganella morganii	Vibrio tubiashii	0.333333333
+Mannheimia haemolytica	Morganella morganii	0.333333333
+Mannheimia haemolytica	Proteus mirabilis	0.333333333
+Mannheimia haemolytica	Pseudomonas putida	0.333333333
+Mannheimia haemolytica	Shigella flexneri	0.333333333
+Mannheimia haemolytica	Shigella sonnei	0.333333333
+Mannheimia haemolytica	Vibrio tubiashii	0.333333333
+Mannheimia haemolytica	Yersinia pestis	0.333333333
+Macrococcus caseolyticus	Staphylococcus aureus	0.333333333
+Lamprocystis purpurea	Salmonella enterica	0.333333333
+Lactobacillus salivarius	Staphylococcus aureus	0.333333333
+Lactobacillus salivarius	Streptococcus suis	0.333333333
+Lactobacillus reuteri	Staphylococcus aureus	0.333333333
+Lachnospiraceae bacterium 6_1_63FAA	[Clostridium] clostridioforme	0.333333333
+Klebsiella sp. MS 92-3	Proteus mirabilis	0.333333333
+Klebsiella sp. MS 92-3	Salmonella enterica	0.333333333
+Klebsiella sp. MS 92-3	Shigella flexneri	0.333333333
+Klebsiella sp. MS 92-3	Yersinia pestis	0.333333333
+Klebsiella sp. 10982	Morganella morganii	0.333333333
+Klebsiella sp. 10982	Pasteurella multocida	0.333333333
+Klebsiella sp. 10982	Proteus mirabilis	0.333333333
+Klebsiella sp. 10982	Pseudomonas putida	0.333333333
+Klebsiella sp. 10982	Ralstonia sp. PBA	0.333333333
+Klebsiella sp. 10982	Vibrio cholerae	0.333333333
+Klebsiella pneumoniae	Novosphingobium sp. B-7	0.333333333
+Klebsiella pneumoniae	Pseudomonas sp. P179	0.333333333
+Klebsiella pneumoniae	Pseudomonas stutzeri	0.333333333
+Klebsiella pneumoniae	Ralstonia sp. PBA	0.333333333
+Klebsiella pneumoniae	Shigella boydii	0.333333333
+Klebsiella pneumoniae	Sphingobium chinhatense	0.333333333
+Klebsiella pneumoniae	Vibrio harveyi	0.333333333
+Klebsiella pneumoniae	Vibrio tubiashii	0.333333333
+Klebsiella oxytoca	Pseudomonas sp. P179	0.333333333
+Klebsiella oxytoca	Pseudomonas sp. RL	0.333333333
+Klebsiella oxytoca	Pseudomonas stutzeri	0.333333333
+Klebsiella oxytoca	Ralstonia sp. PBA	0.333333333
+Klebsiella oxytoca	Shigella boydii	0.333333333
+Klebsiella oxytoca	Shigella dysenteriae	0.333333333
+Klebsiella oxytoca	Sphingobium chinhatense	0.333333333
+Klebsiella oxytoca	Vibrio tubiashii	0.333333333
+Haemophilus sputorum	Pseudomonas aeruginosa	0.333333333
+Haemophilus parasuis	Haemophilus sputorum	0.333333333
+Haemophilus parasuis	Proteus mirabilis	0.333333333
+Haemophilus parasuis	Shigella dysenteriae	0.333333333
+Gardnerella vaginalis	Streptococcus agalactiae	0.333333333
+Gardnerella vaginalis	Streptococcus anginosus	0.333333333
+Gardnerella vaginalis	Streptococcus mitis	0.333333333
+Gardnerella vaginalis	Streptococcus pneumoniae	0.333333333
+Gardnerella vaginalis	Streptococcus pyogenes	0.333333333
+Gardnerella vaginalis	Streptococcus sanguinis	0.333333333
+Gardnerella vaginalis	Streptococcus sp. SR4	0.333333333
+Escherichia sp. 1_1_43	Haemophilus sputorum	0.333333333
+Escherichia sp. 1_1_43	Mannheimia haemolytica	0.333333333
+Escherichia sp. 1_1_43	Mycobacterium abscessus	0.333333333
+Escherichia sp. 1_1_43	Pasteurella multocida	0.333333333
+Escherichia sp. 1_1_43	Proteus mirabilis	0.333333333
+Escherichia sp. 1_1_43	Pseudomonas monteilii	0.333333333
+Escherichia sp. 1_1_43	Pseudomonas sp. P179	0.333333333
+Escherichia sp. 1_1_43	Pseudomonas sp. RL	0.333333333
+Escherichia sp. 1_1_43	Serratia marcescens	0.333333333
+Escherichia sp. 1_1_43	Sphingobium chinhatense	0.333333333
+Escherichia sp. 1_1_43	Vibrio tubiashii	0.333333333
+Escherichia fergusonii	Mannheimia haemolytica	0.333333333
+Escherichia fergusonii	Mycobacterium abscessus	0.333333333
+Escherichia fergusonii	Pasteurella multocida	0.333333333
+Escherichia fergusonii	Pseudomonas monteilii	0.333333333
+Escherichia fergusonii	Pseudomonas sp. P179	0.333333333
+Escherichia fergusonii	Pseudomonas sp. RL	0.333333333
+Escherichia fergusonii	Shigella dysenteriae	0.333333333
+Escherichia fergusonii	Sphingobium chinhatense	0.333333333
+Escherichia fergusonii	Yersinia pestis	0.333333333
+Escherichia coli	Lamprocystis purpurea	0.333333333
+Escherichia coli	Peptoclostridium difficile	0.333333333
+Escherichia coli	Pseudomonas stutzeri	0.333333333
+Escherichia coli	Shigella boydii	0.333333333
+Escherichia coli	Sphingobium chinhatense	0.333333333
+Escherichia coli	Tyzzerella nexilis	0.333333333
+Escherichia coli	Vibrio tubiashii	0.333333333
+Erysipelotrichaceae bacterium 21_3	Streptococcus suis	0.333333333
+Enterococcus villorum	Staphylococcus aureus	0.333333333
+Enterococcus sp. HSIEG1	Staphylococcus epidermidis	0.333333333
+Enterococcus sp. HSIEG1	Staphylococcus pseudintermedius	0.333333333
+Enterococcus sp. HSIEG1	Streptococcus agalactiae	0.333333333
+Enterococcus sp. HSIEG1	Streptococcus mutans	0.333333333
+Enterococcus sp. HSIEG1	[Clostridium] clostridioforme	0.333333333
+Enterococcus faecium	Enterococcus villorum	0.333333333
+Enterococcus faecium	Macrococcus caseolyticus	0.333333333
+Enterococcus faecium	Streptococcus porci	0.333333333
+Enterococcus faecium	Streptococcus pyogenes	0.333333333
+Enterococcus faecalis	Enterococcus raffinosus	0.333333333
+Enterococcus faecalis	Enterococcus villorum	0.333333333
+Enterococcus faecalis	Macrococcus caseolyticus	0.333333333
+Enterococcus faecalis	Staphylococcus sciuri	0.333333333
+Enterococcus faecalis	Staphylococcus warneri	0.333333333
+Enterococcus faecalis	Streptococcus pyogenes	0.333333333
+Enterobacter sp. MGH 9	Escherichia coli	0.333333333
+Enterobacter sp. MGH 8	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. MGH 8	Shigella flexneri	0.333333333
+Enterobacter sp. MGH 7	Pseudomonas putida	0.333333333
+Enterobacter sp. MGH 7	Salmonella enterica	0.333333333
+Enterobacter sp. MGH 6	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. MGH 6	Rickettsiaceae bacterium Os18	0.333333333
+Enterobacter sp. MGH 6	Shigella flexneri	0.333333333
+Enterobacter sp. MGH 5	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. MGH 5	Shigella flexneri	0.333333333
+Enterobacter sp. MGH 3	Enterobacter sp. MGH 5	0.333333333
+Enterobacter sp. MGH 3	Enterobacter sp. MGH 8	0.333333333
+Enterobacter sp. MGH 3	Haemophilus sputorum	0.333333333
+Enterobacter sp. MGH 3	Klebsiella sp. 10982	0.333333333
+Enterobacter sp. MGH 3	Klebsiella sp. MS 92-3	0.333333333
+Enterobacter sp. MGH 3	Pseudomonas sp. P179	0.333333333
+Enterobacter sp. MGH 3	Pseudomonas sp. RL	0.333333333
+Enterobacter sp. MGH 3	Shigella sonnei	0.333333333
+Enterobacter sp. MGH 3	Sphingobium chinhatense	0.333333333
+Enterobacter sp. MGH 3	Vibrio parahaemolyticus	0.333333333
+Enterobacter sp. MGH 26	Enterobacter sp. MGH 5	0.333333333
+Enterobacter sp. MGH 26	Enterobacter sp. MGH 8	0.333333333
+Enterobacter sp. MGH 26	Enterobacter sp. MGH 9	0.333333333
+Enterobacter sp. MGH 2	Enterobacter sp. MGH 9	0.333333333
+Enterobacter sp. MGH 2	Escherichia fergusonii	0.333333333
+Enterobacter sp. MGH 2	Morganella morganii	0.333333333
+Enterobacter sp. MGH 2	Rickettsiaceae bacterium Os18	0.333333333
+Enterobacter sp. MGH 15	Enterobacter sp. MGH 2	0.333333333
+Enterobacter sp. MGH 15	Haemophilus sputorum	0.333333333
+Enterobacter sp. MGH 15	Klebsiella sp. 10982	0.333333333
+Enterobacter sp. MGH 15	Mannheimia haemolytica	0.333333333
+Enterobacter sp. MGH 15	Pasteurella multocida	0.333333333
+Enterobacter sp. MGH 15	Pseudomonas psychrophila	0.333333333
+Enterobacter sp. MGH 15	Pseudomonas sp. P179	0.333333333
+Enterobacter sp. MGH 15	Pseudomonas sp. RL	0.333333333
+Enterobacter sp. MGH 15	Sphingobium chinhatense	0.333333333
+Enterobacter sp. MGH 15	Vibrio parahaemolyticus	0.333333333
+Enterobacter sp. MGH 15	Vibrio tubiashii	0.333333333
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 5	0.333333333
+Enterobacter sp. MGH 14	Enterobacter sp. MGH 8	0.333333333
+Enterobacter sp. MGH 14	Haemophilus parasuis	0.333333333
+Enterobacter sp. MGH 14	Haemophilus sputorum	0.333333333
+Enterobacter sp. MGH 14	Klebsiella sp. 10982	0.333333333
+Enterobacter sp. MGH 14	Klebsiella sp. MS 92-3	0.333333333
+Enterobacter sp. MGH 14	Pseudomonas sp. P179	0.333333333
+Enterobacter sp. MGH 14	Pseudomonas sp. RL	0.333333333
+Enterobacter sp. MGH 14	Sphingobium chinhatense	0.333333333
+Enterobacter sp. MGH 14	Vibrio tubiashii	0.333333333
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 14	0.333333333
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 26	0.333333333
+Enterobacter sp. MGH 12	Enterobacter sp. MGH 3	0.333333333
+Enterobacter sp. MGH 12	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. MGH 12	Shigella flexneri	0.333333333
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 14	0.333333333
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 26	0.333333333
+Enterobacter sp. MGH 11	Enterobacter sp. MGH 3	0.333333333
+Enterobacter sp. MGH 11	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. MGH 11	Shigella flexneri	0.333333333
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 13	0.333333333
+Enterobacter sp. MGH 10	Enterobacter sp. MGH 7	0.333333333
+Enterobacter sp. MGH 10	Escherichia fergusonii	0.333333333
+Enterobacter sp. MGH 10	Proteus mirabilis	0.333333333
+Enterobacter sp. MGH 10	Pseudomonas putida	0.333333333
+Enterobacter sp. MGH 1	Rickettsiaceae bacterium Os18	0.333333333
+Enterobacter sp. MGH 1	Salmonella enterica	0.333333333
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 14	0.333333333
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 3	0.333333333
+Enterobacter sp. BWH 39	Enterobacter sp. MGH 9	0.333333333
+Enterobacter sp. BWH 39	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. BWH 39	Shigella flexneri	0.333333333
+Enterobacter sp. BWH 37	Enterobacter sp. MGH 2	0.333333333
+Enterobacter sp. BWH 37	Escherichia sp. 1_1_43	0.333333333
+Enterobacter sp. BWH 37	Haemophilus parasuis	0.333333333
+Enterobacter sp. BWH 37	Haemophilus sputorum	0.333333333
+Enterobacter sp. BWH 37	Mycobacterium abscessus	0.333333333
+Enterobacter sp. BWH 37	Pseudomonas monteilii	0.333333333
+Enterobacter sp. BWH 37	Pseudomonas sp. P179	0.333333333
+Enterobacter sp. BWH 37	Pseudomonas sp. RL	0.333333333
+Enterobacter sp. BWH 37	Shigella sonnei	0.333333333
+Enterobacter sp. BWH 37	Sphingobium chinhatense	0.333333333
+Enterobacter sp. BWH 37	Yersinia pestis	0.333333333
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 14	0.333333333
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 26	0.333333333
+Enterobacter sp. BWH 27	Enterobacter sp. MGH 3	0.333333333
+Enterobacter sp. BWH 27	Pseudomonas aeruginosa	0.333333333
+Enterobacter sp. BIDMC 28	Enterobacter sp. MGH 14	0.333333333
+Enterobacter sp. BIDMC 28	Escherichia sp. 1_1_43	0.333333333
+Enterobacter sp. BIDMC 28	Mannheimia haemolytica	0.333333333
+Enterobacter sp. BIDMC 28	Morganella morganii	0.333333333
+Enterobacter sp. BIDMC 28	Pasteurella multocida	0.333333333
+Enterobacter sp. BIDMC 28	Pseudomonas putida	0.333333333
+Enterobacter sp. BIDMC 28	Shigella sonnei	0.333333333
+Enterobacter sp. BIDMC 28	Vibrio cholerae	0.333333333
+Enterobacter sp. BIDMC 28	Vibrio tubiashii	0.333333333
+Enterobacter sp. BIDMC 28	Yersinia pestis	0.333333333
+Enterobacter cloacae	Enterobacter sp. BWH 39	0.333333333
+Enterobacter cloacae	Enterobacter sp. MGH 11	0.333333333
+Enterobacter cloacae	Enterobacter sp. MGH 12	0.333333333
+Enterobacter cloacae	Enterobacter sp. MGH 5	0.333333333
+Enterobacter cloacae	Enterobacter sp. MGH 8	0.333333333
+Enterobacter cloacae	Haemophilus parasuis	0.333333333
+Enterobacter cloacae	Haemophilus sputorum	0.333333333
+Enterobacter cloacae	Lamprocystis purpurea	0.333333333
+Enterobacter cloacae	Mannheimia haemolytica	0.333333333
+Enterobacter cloacae	Pseudomonas sp. P179	0.333333333
+Enterobacter cloacae	Ralstonia sp. PBA	0.333333333
+Enterobacter cloacae	Shigella dysenteriae	0.333333333
+Enterobacter cloacae	Sphingobium chinhatense	0.333333333
+Enterobacter cloacae	Vibrio tubiashii	0.333333333
+Enterobacter aerogenes	Enterobacter sp. BIDMC 28	0.333333333
+Enterobacter aerogenes	Enterobacter sp. MGH 2	0.333333333
+Enterobacter aerogenes	Enterobacter sp. MGH 6	0.333333333
+Enterobacter aerogenes	Haemophilus parasuis	0.333333333
+Enterobacter aerogenes	Haemophilus sputorum	0.333333333
+Enterobacter aerogenes	Klebsiella sp. MS 92-3	0.333333333
+Enterobacter aerogenes	Mannheimia haemolytica	0.333333333
+Enterobacter aerogenes	Pasteurella multocida	0.333333333
+Enterobacter aerogenes	Pseudomonas monteilii	0.333333333
+Enterobacter aerogenes	Pseudomonas sp. P179	0.333333333
+Enterobacter aerogenes	Rickettsiaceae bacterium Os18	0.333333333
+Enterobacter aerogenes	Serratia marcescens	0.333333333
+Enterobacter aerogenes	Shigella dysenteriae	0.333333333
+Enterobacter aerogenes	Sphingobium chinhatense	0.333333333
+Enterobacter aerogenes	Vibrio parahaemolyticus	0.333333333
+Enterobacter aerogenes	Vibrio tubiashii	0.333333333
+Elizabethkingia anophelis	Elizabethkingia meningoseptica	0.333333333
+Edwardsiella tarda	Enterobacter sp. BWH 37	0.333333333
+Edwardsiella tarda	Enterobacter sp. MGH 10	0.333333333
+Edwardsiella tarda	Haemophilus parasuis	0.333333333
+Edwardsiella tarda	Mannheimia haemolytica	0.333333333
+Edwardsiella tarda	Mycobacterium abscessus	0.333333333
+Edwardsiella tarda	Pasteurella multocida	0.333333333
+Edwardsiella tarda	Pseudomonas sp. P179	0.333333333
+Edwardsiella tarda	Pseudomonas sp. RL	0.333333333
+Edwardsiella tarda	Rickettsiaceae bacterium Os18	0.333333333
+Edwardsiella tarda	Shigella sonnei	0.333333333
+Edwardsiella tarda	Sphingobium chinhatense	0.333333333
+Corynebacterium urealyticum	Enterobacter cloacae	0.333333333
+Corynebacterium urealyticum	Enterobacter sp. MGH 14	0.333333333
+Corynebacterium urealyticum	Enterobacter sp. MGH 15	0.333333333
+Corynebacterium urealyticum	Escherichia coli	0.333333333
+Corynebacterium urealyticum	Klebsiella pneumoniae	0.333333333
+Corynebacterium urealyticum	Pseudomonas aeruginosa	0.333333333
+Corynebacterium urealyticum	Pseudomonas putida	0.333333333
+Corynebacterium urealyticum	Salmonella enterica	0.333333333
+Corynebacterium urealyticum	Yersinia pestis	0.333333333
+Corynebacterium sp. KPL1989	Corynebacterium sp. KPL1995	0.333333333
+Corynebacterium propinquum	Corynebacterium sp. KPL1989	0.333333333
+Corynebacterium propinquum	Corynebacterium sp. KPL1995	0.333333333
+Coprococcus sp. HPP0074	Enterococcus faecalis	0.333333333
+Coprococcus sp. HPP0074	Peptoclostridium difficile	0.333333333
+Chitinilyticum aquatile	Enterobacter cloacae	0.333333333
+Chitinilyticum aquatile	Escherichia coli	0.333333333
+Chitinilyticum aquatile	Ralstonia sp. PBA	0.333333333
+Chitinilyticum aquatile	Salmonella enterica	0.333333333
+Campylobacter jejuni	Enterococcus sp. HSIEG1	0.333333333
+Campylobacter jejuni	Peptoclostridium difficile	0.333333333
+Campylobacter jejuni	Staphylococcus epidermidis	0.333333333
+Campylobacter jejuni	Streptococcus mitis	0.333333333
+Campylobacter jejuni	Streptococcus mutans	0.333333333
+Campylobacter jejuni	Streptococcus pneumoniae	0.333333333
+Campylobacter jejuni	Streptococcus porci	0.333333333
+Campylobacter coli	Campylobacter jejuni	0.333333333
+Campylobacter coli	Peptoclostridium difficile	0.333333333
+Campylobacter coli	Staphylococcus aureus	0.333333333
+Campylobacter coli	Streptococcus agalactiae	0.333333333
+Campylobacter coli	Streptococcus suis	0.333333333
+Brevibacterium massiliense	Corynebacterium urealyticum	0.333333333
+Brevibacterium massiliense	Edwardsiella tarda	0.333333333
+Brevibacterium massiliense	Enterobacter aerogenes	0.333333333
+Brevibacterium massiliense	Enterobacter sp. BWH 37	0.333333333
+Brevibacterium massiliense	Enterobacter sp. MGH 14	0.333333333
+Brevibacterium massiliense	Enterobacter sp. MGH 15	0.333333333
+Brevibacterium massiliense	Enterobacter sp. MGH 3	0.333333333
+Brevibacterium massiliense	Escherichia fergusonii	0.333333333
+Brevibacterium massiliense	Escherichia sp. 1_1_43	0.333333333
+Brevibacterium massiliense	Morganella morganii	0.333333333
+Brevibacterium massiliense	Mycobacterium abscessus	0.333333333
+Brevibacterium massiliense	Pasteurella multocida	0.333333333
+Brevibacterium massiliense	Proteus mirabilis	0.333333333
+Brevibacterium massiliense	Pseudomonas monteilii	0.333333333
+Brevibacterium massiliense	Pseudomonas psychrophila	0.333333333
+Brevibacterium massiliense	Pseudomonas sp. P179	0.333333333
+Brevibacterium massiliense	Pseudomonas sp. RL	0.333333333
+Brevibacterium massiliense	Shigella flexneri	0.333333333
+Brevibacterium massiliense	Sphingobium chinhatense	0.333333333
+Brevibacterium massiliense	Vibrio cholerae	0.333333333
+Brevibacterium massiliense	Yersinia pestis	0.333333333
+Bordetella bronchiseptica	Enterobacter cloacae	0.333333333
+Bordetella bronchiseptica	Enterobacter sp. MGH 15	0.333333333
+Bordetella bronchiseptica	Salmonella enterica	0.333333333
+Bordetella bronchiseptica	Shigella flexneri	0.333333333
+Bordetella bronchiseptica	Vibrio cholerae	0.333333333
+Bifidobacterium longum	Peptoclostridium difficile	0.333333333
+Bifidobacterium breve	Clostridium sp. M62/1	0.333333333
+Bifidobacterium breve	Enterococcus faecalis	0.333333333
+Bifidobacterium breve	Staphylococcus aureus	0.333333333
+Bifidobacterium breve	Streptococcus agalactiae	0.333333333
+Bifidobacterium breve	Streptococcus suis	0.333333333
+Bifidobacterium breve	[Clostridium] clostridioforme	0.333333333
+Bibersteinia trehalosi	Enterobacter aerogenes	0.333333333
+Bibersteinia trehalosi	Enterobacter sp. BIDMC 28	0.333333333
+Bibersteinia trehalosi	Enterobacter sp. MGH 15	0.333333333
+Bibersteinia trehalosi	Enterobacter sp. MGH 3	0.333333333
+Bibersteinia trehalosi	Escherichia sp. 1_1_43	0.333333333
+Bibersteinia trehalosi	Haemophilus parasuis	0.333333333
+Bibersteinia trehalosi	Pseudomonas putida	0.333333333
+Bibersteinia trehalosi	Shigella flexneri	0.333333333
+Bibersteinia trehalosi	Shigella sonnei	0.333333333
+Bibersteinia trehalosi	Vibrio tubiashii	0.333333333
+Bibersteinia trehalosi	Yersinia pestis	0.333333333
+Bacteroides sp. D22	Odoribacter laneus	0.333333333
+Bacteroides sp. 3_1_23	Parabacteroides sp. 20_3	0.333333333
+Bacteroides sp. 1_1_30	Bacteroides vulgatus	0.333333333
+Bacteroides salyersiae	Bacteroides sp. 3_1_23	0.333333333
+Bacteroides salyersiae	Parabacteroides sp. 20_3	0.333333333
+Bacteroides gallinarum	Bacteroides sp. D22	0.333333333
+Bacteroides fragilis	Bacteroides gallinarum	0.333333333
+Bacteroides fragilis	Bacteroides salyersiae	0.333333333
+Bacteroides fragilis	Bacteroides sp. 1_1_30	0.333333333
+Bacteroides fragilis	Bacteroides sp. 2_2_4	0.333333333
+Bacteroides fragilis	Bacteroides sp. 3_1_23	0.333333333
+Bacteroides fragilis	Bacteroides sp. 9_1_42FAA	0.333333333
+Bacteroides fragilis	Bacteroides vulgatus	0.333333333
+Bacteroides fragilis	Enterococcus faecalis	0.333333333
+Bacteroides fragilis	Enterococcus faecium	0.333333333
+Bacteroides fragilis	Odoribacter laneus	0.333333333
+Bacteroides fragilis	Porphyromonas uenonis	0.333333333
+Bacteroides fragilis	Prevotella oris	0.333333333
+Bacteroides fragilis	Prevotella pleuritidis	0.333333333
+Bacteroides fragilis	Prevotella timonensis	0.333333333
+Bacteroides fragilis	Salmonella enterica	0.333333333
+Bacteroides fragilis	Staphylococcus aureus	0.333333333
+Bacteroides eggerthii	Bacteroides gallinarum	0.333333333
+Bacteroides eggerthii	Bacteroides sp. D22	0.333333333
+Bacteroides eggerthii	Porphyromonas uenonis	0.333333333
+Bacteroides dorei	Bacteroides sp. 9_1_42FAA	0.333333333
+Bacteroides dorei	Bacteroides sp. D22	0.333333333
+Bacteroides dorei	Bibersteinia trehalosi	0.333333333
+Bacteroides dorei	Enterobacter cloacae	0.333333333
+Bacteroides dorei	Enterococcus faecalis	0.333333333
+Bacteroides dorei	Enterococcus faecium	0.333333333
+Bacteroides dorei	Escherichia sp. 1_1_43	0.333333333
+Bacteroides dorei	Klebsiella pneumoniae	0.333333333
+Bacteroides dorei	Parabacteroides sp. 20_3	0.333333333
+Bacteroides dorei	Porphyromonas uenonis	0.333333333
+Bacteroides dorei	Prevotella oris	0.333333333
+Bacteroides dorei	Prevotella pleuritidis	0.333333333
+Bacteroides dorei	Pseudomonas aeruginosa	0.333333333
+Bacteroides dorei	Shigella flexneri	0.333333333
+Bacteroides cellulosilyticus	Bacteroides dorei	0.333333333
+Bacteroides cellulosilyticus	Bacteroides eggerthii	0.333333333
+Bacteroides cellulosilyticus	Bacteroides fragilis	0.333333333
+Bacillus subtilis	Escherichia coli	0.333333333
+Bacillus subtilis	Staphylococcus epidermidis	0.333333333
+Aeromonas hydrophila	Chitinilyticum aquatile	0.333333333
+Aeromonas hydrophila	Edwardsiella tarda	0.333333333
+Aeromonas hydrophila	Enterobacter aerogenes	0.333333333
+Aeromonas hydrophila	Enterobacter sp. MGH 10	0.333333333
+Aeromonas hydrophila	Enterobacter sp. MGH 14	0.333333333
+Aeromonas hydrophila	Enterobacter sp. MGH 15	0.333333333
+Aeromonas hydrophila	Enterobacter sp. MGH 3	0.333333333
+Aeromonas hydrophila	Klebsiella sp. 10982	0.333333333
+Aeromonas hydrophila	Morganella morganii	0.333333333
+Aeromonas hydrophila	Proteus mirabilis	0.333333333
+Aeromonas hydrophila	Pseudomonas putida	0.333333333
+Aeromonas hydrophila	Vibrio cholerae	0.333333333
+Aeromonas hydrophila	Yersinia pestis	0.333333333
+Aeromonas dhakensis	Enterobacter aerogenes	0.333333333
+Aeromonas dhakensis	Enterobacter cloacae	0.333333333
+Aeromonas dhakensis	Escherichia coli	0.333333333
+Aeromonas dhakensis	Escherichia fergusonii	0.333333333
+Aeromonas dhakensis	Klebsiella pneumoniae	0.333333333
+Aeromonas dhakensis	Pseudomonas aeruginosa	0.333333333
+Aeromonas dhakensis	Pseudomonas putida	0.333333333
+Aeromonas dhakensis	Salmonella enterica	0.333333333
+Aeromonas dhakensis	Shigella flexneri	0.333333333
+Aeromonas dhakensis	Vibrio cholerae	0.333333333
+Actinobacillus pleuropneumoniae	Bibersteinia trehalosi	0.333333333
+Actinobacillus pleuropneumoniae	Escherichia coli	0.333333333
+Actinobacillus pleuropneumoniae	Escherichia fergusonii	0.333333333
+Actinobacillus pleuropneumoniae	Haemophilus parasuis	0.333333333
+Actinobacillus pleuropneumoniae	Klebsiella oxytoca	0.333333333
+Actinobacillus pleuropneumoniae	Klebsiella pneumoniae	0.333333333
+Actinobacillus pleuropneumoniae	Mannheimia haemolytica	0.333333333
+Actinobacillus pleuropneumoniae	Morganella morganii	0.333333333
+Actinobacillus pleuropneumoniae	Salmonella enterica	0.333333333
+Actinobacillus pleuropneumoniae	Shigella flexneri	0.333333333
+Actinobacillus minor	Actinobacillus pleuropneumoniae	0.333333333
+Actinobacillus minor	Edwardsiella tarda	0.333333333
+Actinobacillus minor	Escherichia coli	0.333333333
+Actinobacillus minor	Escherichia fergusonii	0.333333333
+Actinobacillus minor	Haemophilus parasuis	0.333333333
+Actinobacillus minor	Klebsiella oxytoca	0.333333333
+Actinobacillus minor	Klebsiella pneumoniae	0.333333333
+Actinobacillus minor	Morganella morganii	0.333333333
+Actinobacillus minor	Salmonella enterica	0.333333333
+Actinobacillus minor	Shigella flexneri	0.333333333
+Acinetobacter towneri	Edwardsiella tarda	0.333333333
+Acinetobacter towneri	Enterobacter aerogenes	0.333333333
+Acinetobacter towneri	Enterobacter cloacae	0.333333333
+Acinetobacter towneri	Enterobacter sp. MGH 3	0.333333333
+Acinetobacter towneri	Escherichia coli	0.333333333
+Acinetobacter towneri	Escherichia fergusonii	0.333333333
+Acinetobacter towneri	Haemophilus parasuis	0.333333333
+Acinetobacter towneri	Klebsiella oxytoca	0.333333333
+Acinetobacter towneri	Klebsiella pneumoniae	0.333333333
+Acinetobacter towneri	Mannheimia haemolytica	0.333333333
+Acinetobacter towneri	Morganella morganii	0.333333333
+Acinetobacter towneri	Pasteurella multocida	0.333333333
+Acinetobacter towneri	Proteus mirabilis	0.333333333
+Acinetobacter towneri	Pseudomonas aeruginosa	0.333333333
+Acinetobacter towneri	Salmonella enterica	0.333333333
+Acinetobacter towneri	Shigella flexneri	0.333333333
+Acinetobacter towneri	Vibrio cholerae	0.333333333
+Acinetobacter sp. MDS7A	Acinetobacter sp. Ver3	0.333333333
+Acinetobacter sp. MDS7A	Bibersteinia trehalosi	0.333333333
+Acinetobacter sp. MDS7A	Enterobacter sp. MGH 10	0.333333333
+Acinetobacter sp. MDS7A	Klebsiella sp. 10982	0.333333333
+Acinetobacter sp. MDS7A	Morganella morganii	0.333333333
+Acinetobacter sp. MDS7A	Pasteurella multocida	0.333333333
+Acinetobacter sp. MDS7A	Pseudomonas aeruginosa	0.333333333
+Acinetobacter sp. CIP 64.7	Bibersteinia trehalosi	0.333333333
+Acinetobacter sp. CIP 64.7	Enterobacter aerogenes	0.333333333
+Acinetobacter sp. CIP 64.7	Enterobacter cloacae	0.333333333
+Acinetobacter sp. CIP 64.7	Enterobacter sp. BIDMC 28	0.333333333
+Acinetobacter sp. CIP 64.7	Enterobacter sp. MGH 14	0.333333333
+Acinetobacter sp. CIP 64.7	Enterobacter sp. MGH 15	0.333333333
+Acinetobacter sp. CIP 64.7	Escherichia coli	0.333333333
+Acinetobacter sp. CIP 64.7	Escherichia sp. 1_1_43	0.333333333
+Acinetobacter sp. CIP 64.7	Klebsiella oxytoca	0.333333333
+Acinetobacter sp. CIP 64.7	Klebsiella pneumoniae	0.333333333
+Acinetobacter sp. CIP 64.7	Mannheimia haemolytica	0.333333333
+Acinetobacter sp. CIP 64.7	Morganella morganii	0.333333333
+Acinetobacter sp. CIP 64.7	Pasteurella multocida	0.333333333
+Acinetobacter sp. CIP 64.7	Pseudomonas putida	0.333333333
+Acinetobacter sp. CIP 64.7	Salmonella enterica	0.333333333
+Acinetobacter sp. CIP 64.7	Shigella flexneri	0.333333333
+Acinetobacter sp. CIP 64.7	Shigella sonnei	0.333333333
+Acinetobacter sp. CIP 64.7	Vibrio cholerae	0.333333333
+Acinetobacter sp. CIP 64.7	Vibrio tubiashii	0.333333333
+Acinetobacter sp. CIP 64.7	Yersinia pestis	0.333333333
+Acinetobacter schindleri	Acinetobacter towneri	0.333333333
+Acinetobacter schindleri	Edwardsiella tarda	0.333333333
+Acinetobacter schindleri	Enterobacter aerogenes	0.333333333
+Acinetobacter schindleri	Enterobacter cloacae	0.333333333
+Acinetobacter schindleri	Enterobacter sp. MGH 3	0.333333333
+Acinetobacter schindleri	Escherichia coli	0.333333333
+Acinetobacter schindleri	Escherichia fergusonii	0.333333333
+Acinetobacter schindleri	Haemophilus parasuis	0.333333333
+Acinetobacter schindleri	Klebsiella oxytoca	0.333333333
+Acinetobacter schindleri	Klebsiella pneumoniae	0.333333333
+Acinetobacter schindleri	Mannheimia haemolytica	0.333333333
+Acinetobacter schindleri	Morganella morganii	0.333333333
+Acinetobacter schindleri	Pasteurella multocida	0.333333333
+Acinetobacter schindleri	Proteus mirabilis	0.333333333
+Acinetobacter schindleri	Pseudomonas aeruginosa	0.333333333
+Acinetobacter schindleri	Salmonella enterica	0.333333333
+Acinetobacter schindleri	Shigella flexneri	0.333333333
+Acinetobacter schindleri	Vibrio cholerae	0.333333333
+Acinetobacter pittii	Escherichia coli	0.333333333
+Acinetobacter pittii	Klebsiella pneumoniae	0.333333333
+Acinetobacter nosocomialis	Acinetobacter pittii	0.333333333
+Acinetobacter nosocomialis	Acinetobacter schindleri	0.333333333
+Acinetobacter nosocomialis	Acinetobacter sp. CIP 64.7	0.333333333
+Acinetobacter nosocomialis	Acinetobacter sp. Ver3	0.333333333
+Acinetobacter nosocomialis	Acinetobacter towneri	0.333333333
+Acinetobacter nosocomialis	Brevibacterium massiliense	0.333333333
+Acinetobacter nosocomialis	Enterobacter sp. BIDMC 28	0.333333333
+Acinetobacter nosocomialis	Enterobacter sp. BWH 37	0.333333333
+Acinetobacter nosocomialis	Enterobacter sp. MGH 10	0.333333333
+Acinetobacter nosocomialis	Klebsiella sp. 10982	0.333333333
+Acinetobacter nosocomialis	Mycobacterium abscessus	0.333333333
+Acinetobacter nosocomialis	Pseudomonas monteilii	0.333333333
+Acinetobacter nosocomialis	Pseudomonas sp. P179	0.333333333
+Acinetobacter nosocomialis	Pseudomonas sp. RL	0.333333333
+Acinetobacter nosocomialis	Shigella sonnei	0.333333333
+Acinetobacter nosocomialis	Sphingobium chinhatense	0.333333333
+Acinetobacter nosocomialis	Vibrio tubiashii	0.333333333
+Acinetobacter lwoffii	Acinetobacter nosocomialis	0.333333333
+Acinetobacter lwoffii	Acinetobacter sp. CIP 64.7	0.333333333
+Acinetobacter lwoffii	Bibersteinia trehalosi	0.333333333
+Acinetobacter lwoffii	Enterobacter aerogenes	0.333333333
+Acinetobacter lwoffii	Enterobacter cloacae	0.333333333
+Acinetobacter lwoffii	Enterobacter sp. BIDMC 28	0.333333333
+Acinetobacter lwoffii	Enterobacter sp. MGH 14	0.333333333
+Acinetobacter lwoffii	Enterobacter sp. MGH 15	0.333333333
+Acinetobacter lwoffii	Escherichia coli	0.333333333
+Acinetobacter lwoffii	Escherichia sp. 1_1_43	0.333333333
+Acinetobacter lwoffii	Klebsiella oxytoca	0.333333333
+Acinetobacter lwoffii	Klebsiella pneumoniae	0.333333333
+Acinetobacter lwoffii	Mannheimia haemolytica	0.333333333
+Acinetobacter lwoffii	Morganella morganii	0.333333333
+Acinetobacter lwoffii	Pasteurella multocida	0.333333333
+Acinetobacter lwoffii	Pseudomonas putida	0.333333333
+Acinetobacter lwoffii	Salmonella enterica	0.333333333
+Acinetobacter lwoffii	Shigella flexneri	0.333333333
+Acinetobacter lwoffii	Shigella sonnei	0.333333333
+Acinetobacter lwoffii	Vibrio cholerae	0.333333333
+Acinetobacter lwoffii	Vibrio tubiashii	0.333333333
+Acinetobacter lwoffii	Yersinia pestis	0.333333333
+Acinetobacter bereziniae	Acinetobacter lwoffii	0.333333333
+Acinetobacter bereziniae	Acinetobacter sp. CIP 64.7	0.333333333
+Acinetobacter bereziniae	Bibersteinia trehalosi	0.333333333
+Acinetobacter bereziniae	Brevibacterium massiliense	0.333333333
+Acinetobacter bereziniae	Edwardsiella tarda	0.333333333
+Acinetobacter bereziniae	Enterobacter sp. BIDMC 28	0.333333333
+Acinetobacter bereziniae	Mannheimia haemolytica	0.333333333
+Acinetobacter bereziniae	Mycobacterium abscessus	0.333333333
+Acinetobacter bereziniae	Pasteurella multocida	0.333333333
+Acinetobacter bereziniae	Pseudomonas monteilii	0.333333333
+Acinetobacter bereziniae	Pseudomonas sp. P179	0.333333333
+Acinetobacter bereziniae	Pseudomonas sp. RL	0.333333333
+Acinetobacter bereziniae	Sphingobium chinhatense	0.333333333
+Acinetobacter bereziniae	Vibrio tubiashii	0.333333333
+Acinetobacter baumannii	Acinetobacter lwoffii	0.333333333
+Acinetobacter baumannii	Acinetobacter schindleri	0.333333333
+Acinetobacter baumannii	Acinetobacter sp. CIP 64.7	0.333333333
+Acinetobacter baumannii	Acinetobacter sp. Ver3	0.333333333
+Acinetobacter baumannii	Acinetobacter towneri	0.333333333
+Acinetobacter baumannii	Actinobacillus minor	0.333333333
+Acinetobacter baumannii	Actinobacillus pleuropneumoniae	0.333333333
+Acinetobacter baumannii	Corynebacterium urealyticum	0.333333333
+Acinetobacter baumannii	Enterobacter sp. BIDMC 28	0.333333333
+Acinetobacter baumannii	Enterobacter sp. MGH 6	0.333333333
+Acinetobacter baumannii	Enterobacter sp. MGH 7	0.333333333
+Acinetobacter baumannii	Novosphingobium sp. B-7	0.333333333
+Acinetobacter baumannii	Pseudomonas sp. P179	0.333333333
+Acinetobacter baumannii	Pseudomonas stutzeri	0.333333333
+Acinetobacter baumannii	Ralstonia sp. PBA	0.333333333
+Acinetobacter baumannii	Shigella boydii	0.333333333
+Acinetobacter baumannii	Sphingobium chinhatense	0.333333333
+Acinetobacter baumannii	Vibrio harveyi	0.333333333
+Acinetobacter baumannii	Vibrio tubiashii	0.333333333
+Acidovorax sp. MR-S7	Escherichia coli	0.333333333
+Achromobacter xylosoxidans	Acinetobacter baumannii	0.333333333
+Achromobacter xylosoxidans	Klebsiella oxytoca	0.333333333
+Achromobacter xylosoxidans	Klebsiella pneumoniae	0.333333333
+Achromobacter xylosoxidans	Klebsiella sp. 10982	0.333333333
+Achromobacter xylosoxidans	Salmonella enterica	0.333333333

@@ -1,5 +1,3 @@
-source("R/sub_2groups.R")
-
 #========================================
 #= Unifrac distance for similarity sequence networks
 #========================================

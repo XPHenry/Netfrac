@@ -171,7 +171,7 @@ shortest_paths_graph <- function(graph,v1,v2,v.mix,col1,distance,opti,mean_w,max
 
       }
       #calculate the proportion of the nodes same color over all nodes
-      dnpr_mix_v = dnpr_mix_v + (1.0*dnpr_prop/length(paths))+ dnpr_no_v
+      dnpr_mix_v = dnpr_mix_v + (1.0*dnpr_prop/length(path))+ dnpr_no_v
 
       #=========== Spep and Spelp distance
 
@@ -287,7 +287,7 @@ dist_par<-function(igraph, nom_col1, nom_col2, mat, distance,opti="single",maxco
   col2 <- nom_col2
   mask.col1 <-which(V(graph)$tax == col1)
   mask.col2 <-which(V(graph)$tax == col2)
-  v.mix <- grep(col_mix,V(graph)$tax)
+  v.mix <- grep(col1_mix,V(graph)$tax)
   v.col1 <-V(graph)[mask.col1] #all vertices of color 1 and mix
   v.col1 <- append(v.col1,V(graph)[v.mix])
   v.col2 <-V(graph)[mask.col2] #all vertices of color 2
