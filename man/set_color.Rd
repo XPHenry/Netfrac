@@ -2,13 +2,23 @@
 % Please edit documentation in R/set_colors.r
 \name{set_color}
 \alias{set_color}
-\title{set_color}
+\title{Set colors for the communities in the network}
 \usage{
-set_color(graph)
+set_color(graph, colors_list = "")
 }
 \arguments{
-\item{graph}{}
+\item{graph}{The igraph object used to define colors. The nodes accessed with V() should have
+a $tax attribute which links them to a community, so a different color can be assigned to each community.}
+
+\item{colors_list}{Optional; the colors can be defined in a list with the community names defined with names().
+Otherwise, the function will return the numbers already associated to R colors.}
 }
 \description{
-set_color
+Visualizes the network by adding different colors to different species communities, when plotting
+either with R own color list or a provided color list.
+}
+\examples{
+net_a = load_network("exemples/network_a.txt","exemples/network_a_tax.txt")
+net_a = set_color(net_a)
+plot(net_a)
 }

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570743617570.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2426318687",
+    "id" : "6DA5036E",
+    "lastKnownWriteTime" : 1571163858,
+    "last_content_update" : 1571163858277,
+    "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/transfer_dist.R",
+    "project_path" : "R/transfer_dist.R",
+    "properties" : {
+        "cursorPosition" : "2,43",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

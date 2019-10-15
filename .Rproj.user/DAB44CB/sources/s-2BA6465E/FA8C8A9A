@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570742473261.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1239933246",
+    "id" : "FA8C8A9A",
+    "lastKnownWriteTime" : 1571162942,
+    "last_content_update" : 1571162942298,
+    "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/main.R",
+    "project_path" : "R/main.R",
+    "properties" : {
+        "cursorPosition" : "59,30",
+        "scrollLine" : "45"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

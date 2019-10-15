@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570742563144.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3624215130",
+    "id" : "7E36752A",
+    "lastKnownWriteTime" : 1571161135,
+    "last_content_update" : 1571161135056,
+    "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/NetUnifrac.R",
+    "project_path" : "R/NetUnifrac.R",
+    "properties" : {
+        "cursorPosition" : "13,28",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

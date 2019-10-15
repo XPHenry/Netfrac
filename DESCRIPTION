@@ -1,13 +1,20 @@
-Package: Test3
+Package: NetFrac
 Type: Package
-Title: Netfrac - Community distance calculation within ecological/biological networks
+Title: Netfrac - Community distance calculation within sequence similarity networks
 Version: 0.1.0
-Author: Xing, Henry
+Author: Xing, Henry; Kembel, Steven W.; Makarenkov, Vladimir
 Maintainer: Henry Xing <xing.henry@courrier.uqam.ca>
-Description: Import network of edges with different communities (tax) for the nodes, and
-	calculates UniFrac, transfer, motif and other shortest paths distances between these
-	communities for sequence similarity networks.
-	Depends on the following libraries:
+Description: The NetFrac package allows the users to calculate the eight following network 
+	distances, NetUniFrac, Motifs, Spp, Spep, Spelp, Spinp, and the Transfer distance (two variants), between 
+	species communities present in a given sequence similarity network. The shortest path 
+	in a phylogenetic tree is traditionally used to estimate evolutionary distances 
+	between species. Moreover, the shortest path concept can be extended to sequence 
+	similarity networks. The five following distances (NetUniFrac, Spp, Spep, Spelp, and 
+	Spinp) can be seen as network analogues of the traditional UniFrac distance used to 
+	assess distances between species communities in a phylogenetic tree, whereas the Transfer 
+	distance is designed for estimating the rate and direction of gene transfers, or 
+	species dispersal, between different phylogenetic, or ecological, species communities.
+	Library dependencies:
 	library(igraph)
 	library(plyr)
 	library(MLmetrics)
@@ -16,6 +23,7 @@ Description: Import network of edges with different communities (tax) for the no
 	library(ape)
 	library(netresponse)
 	library(Rcpp)
-License: What license is it under?
+License: GNU General Public License
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.0
