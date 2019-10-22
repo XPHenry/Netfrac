@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1570814965255.000,
+    "created" : 1571779868965.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "2F88F984",
-    "lastKnownWriteTime" : 1571161327,
-    "last_content_update" : 1571161327874,
+    "hash" : "3961176206",
+    "id" : "7D01C2D3",
+    "lastKnownWriteTime" : 1571780247,
+    "last_content_update" : 1571780247949,
     "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/set_colors.r",
     "project_path" : "R/set_colors.r",
     "properties" : {
-        "cursorPosition" : "19,33",
-        "scrollLine" : "8"
+        "cursorPosition" : "31,15",
+        "scrollLine" : "21"
     },
-    "relative_order" : 11,
+    "relative_order" : 7,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

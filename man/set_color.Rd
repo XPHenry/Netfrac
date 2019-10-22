@@ -18,7 +18,8 @@ Visualizes the network by adding different colors to different species communiti
 either with R own color list or a provided color list.
 }
 \examples{
-net_a = load_network("exemples/network_a.txt","exemples/network_a_tax.txt")
-net_a = set_color(net_a)
+foo_CAT_env <- c("red","green","blue","grey")
+names(foo_CAT_env) = c("host","ubiquitous","water","unknown")
+CAT_env <- set_color(CAT_env, foo_CAT_env)
 plot(net_a)
 }

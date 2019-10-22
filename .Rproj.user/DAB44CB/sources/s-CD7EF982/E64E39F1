@@ -1,19 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1570743617570.000,
+    "created" : 1571780014153.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2426318687",
-    "id" : "6DA5036E",
-    "lastKnownWriteTime" : 1571163858,
-    "last_content_update" : 1571163858277,
+    "hash" : "1939633877",
+    "id" : "E64E39F1",
+    "lastKnownWriteTime" : 1571780378,
+    "last_content_update" : 1571780378426,
     "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/transfer_dist.R",
     "project_path" : "R/transfer_dist.R",
     "properties" : {
-        "cursorPosition" : "2,43",
-        "scrollLine" : "0"
+        "cursorPosition" : "130,8",
+        "scrollLine" : "105"
     },
     "relative_order" : 9,
     "source_on_save" : false,

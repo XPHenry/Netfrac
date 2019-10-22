@@ -17,6 +17,5 @@ node of the network. The result is a pairwise matrix reporting the Transfer dist
 communities.
 }
 \examples{
-net_a = load_network("exemples/network_a.txt","exemples/network_a_tax.txt")
 transfer2(net_a)
 }

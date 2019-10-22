@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1570815073949.000,
+    "created" : 1571780004190.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "B47061E7",
-    "lastKnownWriteTime" : 1571161401,
-    "last_content_update" : 1571161401115,
+    "id" : "2ABBBB60",
+    "lastKnownWriteTime" : 1571780040,
+    "last_content_update" : 1571780040984,
     "path" : "C:/Users/bioinfo/Desktop/Tissicca/Test2/R/sub_groups.R",
     "project_path" : "R/sub_groups.R",
     "properties" : {
-        "cursorPosition" : "24,0",
+        "cursorPosition" : "15,12",
         "scrollLine" : "0"
     },
-    "relative_order" : 12,
+    "relative_order" : 8,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

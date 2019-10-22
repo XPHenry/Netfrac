@@ -16,7 +16,6 @@ Creates another igraph object containing only the nodes from some chosen species
 communities (two or more), and the edges connecting them.
 }
 \examples{
-CAT_env = load_network("exemples/CAT_edges_env.csv","exemples/CAT_node_env.csv")
-CAT_env1 = set_color(subgroup_graph(CAT_env, c("host", "ubiquitous")))
+CAT_env1 <- set_color(subgroup_graph(CAT_env, c("host", "ubiquitous")))
 plot(CAT_env1)
 }

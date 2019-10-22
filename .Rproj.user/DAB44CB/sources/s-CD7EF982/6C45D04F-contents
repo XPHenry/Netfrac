@@ -27,27 +27,27 @@ computation. For Motifs distance, decide the size of the motifs (i.e. 2 or 3)}
 }
 \value{
 $`Spp`
-A           B
+A         B
 A 0.0000000 0.5555556
 B 0.5555556 0.0000000
 
 $Spep
-A           B
+A         B
 A 0.0000000 0.6296296
 B 0.6296296 0.0000000
 
 $Spelp
-A           B
+A         B
 A 0.0000000 0.6296296
 B 0.6296296 0.0000000
 
 $Spinp
-A           B
+A         B
 A 0.0000000 0.9907407
 B 0.9907407 0.0000000
 
 $Transfer
-A           B
+A         B
 A 0.0000000 0.6666667
 B 0.3333333 0.0000000
 }
@@ -56,5 +56,5 @@ Title
 }
 \examples{
 NetFrac(net_a)
-NetFrac(net_a,"Spaths","all")
+NetFrac(net_a,"paths","all")
 }

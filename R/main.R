@@ -38,6 +38,49 @@ multicore<- function(nc=0) {
 #=====================================================================================================
 #===== rajouter notes sur les distances et aussi dans dist_par
 
+#' Title
+#'
+#' @param x The network(or tree) that will be analyzed. The network must be in the igraph format, the edges
+#' being accessible with E(x) and vertices with V(x). The communities are under V(x)$tax and the branch weights
+#' under E(x)$weight. These functions are applicable with igraph objects only
+#' @param distances Distance(s) to calculate: Transfer, Transfer2, Spaths, UniFrac and Motifs. The transfer,
+#' paths and Unifrac distances can also be calculated for trees
+#' @param paths this parameter is used to decide whether all the shortest paths between network nodes should be
+#' calculated ("all"), or only one of them ("single"). The last option can significantly reduce the time of
+#' computation. For Motifs distance, decide the size of the motifs (i.e. 2 or 3)
+#' @param mats the similarity matrix used to reconnect the network. See also \code{\link{reconnect}}
+#' @param maxcores uses the multicore function to set up the number of cores to be used
+#' @param share_weight weight if there are mixed communities. For now, only 0 is implemented
+#'
+#' @return
+#' $`Spp`
+#'A           B
+#'A 0.0000000 0.5555556
+#'B 0.5555556 0.0000000
+#'
+#'$Spep
+#'A           B
+#'A 0.0000000 0.6296296
+#'B 0.6296296 0.0000000
+#'
+#'$Spelp
+#'A           B
+#'A 0.0000000 0.6296296
+#'B 0.6296296 0.0000000
+#'
+#'$Spinp
+#'A           B
+#'A 0.0000000 0.9907407
+#'B 0.9907407 0.0000000
+#'
+#'$Transfer
+#'A           B
+#'A 0.0000000 0.6666667
+#'B 0.3333333 0.0000000
+#' @export
+#'
+#' @examples NetFrac(net_a)
+#'NetFrac(net_a,"Spaths","all")
 NetFrac <- function(x, distances = "UniFrac",paths="single", mats="", maxcores=1, share_weight =0){
   #create the different combinations using combn on the taxa levels
   taxlvl <- levels(as.factor(V(x)$tax))

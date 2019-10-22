@@ -14,7 +14,7 @@ Description: The NetFrac package allows the users to calculate the eight followi
 	assess distances between species communities in a phylogenetic tree, whereas the Transfer 
 	distance is designed for estimating the rate and direction of gene transfers, or 
 	species dispersal, between different phylogenetic, or ecological, species communities.
-Imports:
+Depends:
 	igraph,
 	plyr,
 	MLmetrics,

@@ -17,8 +17,7 @@
 #' @export
 #'
 #' @examples
-#' net_a = load_network("exemples/network_a.txt","exemples/network_a_tax.txt")
-#' NetUnifrac(net_a)
+#' NetUnifrac(net_a,"A","B")
 NetUnifrac <- function(igraph, tax1 ="", tax2 ="",weight =TRUE){
 
   #find the nodes with mixed communities
@@ -33,7 +32,7 @@ NetUnifrac <- function(igraph, tax1 ="", tax2 ="",weight =TRUE){
 
   #create subgraph that contains the two communities
   if (tax1 != ""){
-    igraph2=subgroup_graph(igraph,c(tax1,tax2))
+    igraph2<-subgroup_graph(igraph,c(tax1,tax2))
   }
   igraph_edge <- get.edgelist(igraph2)
   igraph_V <- V(igraph2)

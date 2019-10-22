@@ -19,5 +19,6 @@ NetUnifrac(igraph, tax1 = "", tax2 = "", weight = TRUE)
 Calculates the network version of the UniFrac distance.
 }
 \examples{
-NetUnifrac(net_a,"A","B")
+net_a = load_network("exemples/network_a.txt","exemples/network_a_tax.txt")
+NetUnifrac(net_a)
 }
