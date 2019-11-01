@@ -1,0 +1,39 @@
+---
+title: "Load a custom network"
+author: "Xing, Henry; Makarenkov, Vladimir; Kembel, Steven W."
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+library(NetFrac)
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The input network can come from different sources. It has to be encoded as an object recognizable by the igraph tool in R. The function load_network() of the SDDE package can be used to load the network with its basic information.
+ 
+
+## File format
+ 
+
+Two input files are needed to load the complete network information.
+
+The first one is the network file, i.e., the list of the network edges, encoded as the node (species or object) names separated by a tab, and the weights attributed to each edge. One edge per line should be indicated.
+
+The second file contains the information about the community to which each node (species or object) of the network belongs to. The node names and the community names should be separated by a tab. Some example of input files can be found in the 'exemples' folder.
+
+
+## Load_network
+```{r}
+library(SDDE)
+graph1 = load_network("../exemples/network_a.txt", "../exemples/network_a_tax.txt")
+graph1 = set_color(graph1)
+plot(graph1, vertex.size = 30)
+```
