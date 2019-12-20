@@ -12,7 +12,7 @@ NetFrac(x, distances = "UniFrac", paths = "single", mats = "",
 being accessible with E(x) and vertices with V(x). The communities are under V(x)$tax and the branch weights
 under E(x)$weight. These functions are applicable with igraph objects only}
 
-\item{distances}{Distance(s) to calculate: Transfer, Transfer2, Spaths, UniFrac and Motifs. The transfer,
+\item{distances}{Distances or indices to calculate: Transfer, Transfer2, Spaths, UniFrac and Motifs. The transfer,
 paths and Unifrac distances can also be calculated for trees}
 
 \item{paths}{this parameter is used to decide whether all the shortest paths between network nodes should be
@@ -26,30 +26,29 @@ computation. For Motifs distance, decide the size of the motifs (i.e. 2 or 3)}
 \item{share_weight}{weight if there are mixed communities. For now, only 0 is implemented}
 }
 \value{
-$`Spp`
-A           B
-A 0.0000000 0.5555556
-B 0.5555556 0.0000000
+$`Spp`\cr
+A           B\cr
+A 0.0000000 0.5555556\cr
+B 0.5555556 0.0000000\cr
 
-$Spep
-A           B
-A 0.0000000 0.6296296
-B 0.6296296 0.0000000
+$Spep\cr
+A           B\cr
+A 0.0000000 0.6296296\cr
+B 0.6296296 0.0000000\cr
 
-$Spelp
-A           B
-A 0.0000000 0.6296296
-B 0.6296296 0.0000000
+$Spelp\cr
+A           B\cr
+A 0.0000000 0.6296296\cr
+B 0.6296296 0.0000000\cr
 
-$Spinp
-A           B
-A 0.0000000 0.9907407
-B 0.9907407 0.0000000
-
-$Transfer
-A           B
-A 0.0000000 0.6666667
-B 0.3333333 0.0000000
+$Spinp\cr
+A           B\cr
+A 0.0000000 0.9907407\cr
+B 0.9907407 0.0000000\cr
+$Transfer\cr
+A           B\cr
+A 0.0000000 0.6666667\cr
+B 0.3333333 0.0000000\cr
 }
 \description{
 Title

@@ -5,14 +5,14 @@ Version: 0.1.0
 Author: Xing, Henry; Kembel, Steven W.; Makarenkov, Vladimir
 Maintainer: Henry Xing <xing.henry@courrier.uqam.ca>
 Description: The NetFrac package allows the users to calculate the eight following network 
-	distances, NetUniFrac, Motifs, Spp, Spep, Spelp, Spinp, and the Transfer distance (two variants), between 
+	measures: NetUniFrac, Motifs, Spp, Spep, Spelp, Spinp distances and the Transfer index (two variants), between 
 	species communities present in a given sequence similarity network. The shortest path 
 	in a phylogenetic tree is traditionally used to estimate evolutionary distances 
-	between species. Moreover, the shortest path concept can be extended to sequence 
+	between species. However, the shortest path concept can be extended to sequence 
 	similarity networks. The five following distances (NetUniFrac, Spp, Spep, Spelp, and 
 	Spinp) can be seen as network analogues of the traditional UniFrac distance used to 
 	assess distances between species communities in a phylogenetic tree, whereas the Transfer 
-	distance is designed for estimating the rate and direction of gene transfers, or 
+	index is designed for estimating the rate and direction of horizontal gene transfers, or 
 	species dispersal, between different phylogenetic, or ecological, species communities.
 Depends:
 	igraph,
@@ -27,3 +27,6 @@ License: GNU General Public License
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

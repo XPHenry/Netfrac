@@ -2,7 +2,7 @@
 % Please edit documentation in R/transfer_dist.R
 \name{Transfer}
 \alias{Transfer}
-\title{Algorithm for a fast calculation of the Transfer distance}
+\title{Algorithm for a fast calculation of the Transfer index}
 \usage{
 Transfer(graph)
 }
@@ -10,12 +10,12 @@ Transfer(graph)
 \item{graph}{The igraph object}
 }
 \description{
-The trasnfer distance can be used to calculate the proportion of species/sequences of community X that have been
-affected by horizontal gene transfers from species/sequences of community Y. The Transfer distance is assymetric.
+The Transfer index can be used to calculate the proportion of species/sequences of community X that have been
+affected by horizontal gene transfers from species/sequences of community Y. The Transfer index is assymetric.
 If the threshold alpha (0<alpha<1) is satisfied, the distance is incremented. The operation is repeated for every
-node of the network. The result is a pairwise matrix reporting the Transfer distance between each pair of species
+node of the network. The result is a pairwise matrix reporting the Transfer index for each pair of species
 communities.
 }
 \examples{
-transfer2(net_a)
+Transfer(net_a)
 }

@@ -21,5 +21,5 @@ either with R own color list or a provided color list.
 foo_CAT_env <- c("red","green","blue","grey")
 names(foo_CAT_env) = c("host","ubiquitous","water","unknown")
 CAT_env <- set_color(CAT_env, foo_CAT_env)
-plot(net_a)
+plot(CAT_env)
 }
