@@ -1,6 +1,6 @@
 # NetFrac
 
-The R package **NetFrac** is used to calculate various distances and indices between communities in sequence similarity sequence (SSN). Some of those metrics are based on the shortest paths concept, namely Spp, Spep, Spelp and Spinp distances and Transfer index, and a few others adapted from existing concepts in literature (UniFrac, Motifs). The networks are Igraph objects consisting of nodes and edges. 
+The R package **NetFrac** is used to calculate various distances and indices between species communities in sequence similarity sequence (SSN). Some of these measures are based on the shortest path concept, namely Spp, Spep, Spelp and Spinp distances and the Transfer index, and a few others are adapted from existing concepts in the literature (UniFrac, Motifs). The networks are Igraph objects consisting of nodes and edges.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Then in RStudio, select the project with the project icon at the top right, and 
 ![Open project](Rstudio1.png)
 
 
-Otherwise, from an R command line or interface, you can also to install it directly from GitHub using devtools:
+Otherwise, from an R command line or interface, you can also install it directly from GitHub using devtools:
 ```r
 library(devtools)
 install_github("XPHenry/Netfrac")
