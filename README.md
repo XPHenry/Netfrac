@@ -30,7 +30,7 @@ library(NetFrac)
 You can refer to the manual in the GitHub (https://github.com/XPHenry/Netfrac/blob/master/NetFrac.pdf) for detailed informations about the functions included in  our package.
 
 For more information also see the following article:
-Xing, Henry, Kembel, Steven W. and Makarenkov, Vladimir. "Transfer index, NetUniFrac and some useful shortest path-based distances for community analysis in sequence similarity networks". Submitted to Bioinformatics, December 2019.
+Henry Xing, Steven W Kembel, Vladimir Makarenkov, Transfer index, NetUniFrac and some useful shortest path-based distances for community analysis in sequence similarity networks, Bioinformatics, ,btaa043, https://doi.org/10.1093/bioinformatics/btaa043
 
 ## License
 
